@@ -1,0 +1,310 @@
+html {
+	scroll-behavior: smooth;
+  }
+  a.navbar-brand img {
+    width: 100%;
+    max-width: 200px;
+}
+.heaedplus_banner{
+	background-image: url(../images/bg_banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #02083c;
+	background-position:center;
+}
+li.nav-item .nav-link {
+    color: #fff;
+    font-weight: 400;
+}
+header {
+    backdrop-filter: blur(100px);
+}
+li.nav-item {
+    margin-left: 20px;
+}
+.banner_content {
+    padding: 200px 0;
+	position: relative;
+}
+.banner_inner_content p {
+    color: #F5F2E8;
+    font-weight: lighter;
+    font-size: 27px;
+}
+.banner_inner_content h1 {
+    color: #F5F2E8;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 95px;
+}
+.arrow_down img {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    width: 40px;
+	cursor: pointer;
+}
+.wir_brigen_ai p.uper_paragraph {
+    color: #D25008;
+    font-weight: 400;
+}
+.wir_bringen_inner h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #f5f2e8;
+	margin-bottom: 45px;
+}
+.wir_bringen_inner p {
+
+    color: #fff;
+}
+/* .nav-item.contact_button .nav-link{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+} */
+.wir_brigen_ai {
+    background-image: url(../images/video_in_bg_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.wir_bringen_inner {
+    padding-left: 160px;
+	padding-top: 120px;
+
+}
+.wir_brigen_ai2main {
+    background: #0C1934;
+    padding: 120px 0;
+}
+.uper_para_wir p {
+    font-weight: bold;
+    color: #fff;
+}
+.uper_para_wir h2 {
+    font-weight: 500;
+    color: #fff;
+}
+.right_wir_2 p {
+    color: #fff;
+    font-weight: 400;
+}
+.design_refrence_timeline {
+    color: #D25008;
+    font-weight: bold;
+    font-size: 22px;
+	padding-left: 160px;
+}
+.design_refrence_div {
+    padding-top: 80px;
+	padding-bottom: 80px;
+}
+.design_refrence_div.in_second_roadmap {
+    visibility: hidden;
+}
+.left_wir_2 {
+    padding-left: 160px;
+}
+.wir_brigen_wrapper {
+    position: relative;
+}
+.wir_brigen_wrapper img {
+    position: absolute;
+    left: 350px;
+    top: 340px;
+    max-width: 470px;
+}
+.entdecken_section {
+    padding: 120px 0;
+}
+.entdecken_section h2 {
+    color: #fff;
+    font-size: 69px;
+    font-weight: bold;
+	margin-bottom: 20px;
+}
+.entdecken_section
+{
+	background-image: url(../images/entdeckan.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.entdecken_content {
+    padding-left: 180px;
+}
+.entdecken_content a {
+    color: #F5F2E8;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid #f5f2e8;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.service {
+    padding: 120px 0;
+    background: #0C1934;
+}
+.service_card h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+}
+.service_card p {
+    color: #fff;
+    font-size: 16px;
+}
+.service h2 {
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 500;
+}
+.service_card {
+    padding-top: 160px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background: linear-gradient(316deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.service_card:hover{
+	background-image: url(../images/service_after.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2.faq_h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.faq {
+    background: #1d2942;
+    padding-top: 120px;
+    padding-bottom: 240px;
+    background-image: url(../images/faq_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.accordion-item:first-of-type .accordion-button {
+    font-size: 16px;
+    color: #F5F2E8;
+	box-shadow: unset;
+}
+.accordion-button {
+	font-size: 16px;
+    color: #F5F2E8;
+    background-color: #1d2942;
+	border: unset;
+	outline: unset;
+	box-shadow: unset;
+}
+.accordion-item {
+    margin-bottom: 10px;
+    border: unset;
+	color: #f5f2e8;
+    background-color: transparent;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #0C1934;
+    box-shadow:unset;
+	color: #fff;
+}
+.accordion-body {
+    background: #0c1934;
+}
+.accordion-button:focus {
+    box-shadow: unset;
+}
+.accordion-button::after {
+    background-image:url(../images/plus.png);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url(../images/minus.png);
+}
+footer {
+    padding: 60px 0;
+}
+
+
+.uper_footer_links ul {
+    display: flex;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.uper_footer_links ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.uper_footer_links ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer_logo img {
+    max-width: 225px;
+    margin-bottom: 30px;
+}
+.bottom_address p:first-child {margin-bottom: 6px;}
+
+.bottom_address p:first-child b {
+    text-decoration: underline;
+}
+.bottom_address {
+	margin-top: 30px;
+}
+.copy_right {
+    margin-top: 30px;
+}
+.right_side_footer h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+ul.social_media_icon {
+    padding: 0;
+    list-style: none;
+    display: flex;
+	padding-top: 100px;
+}
+ul.social_media_icon li {
+    margin-right: 30px;
+}
+ul.social_media_icon li a {
+    color: #000;
+    border: 1px solid #00000026;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul.bottom_footer_links {
+    display: flex;
+    padding: 0;
+    list-style: none;
+	padding-top: 15px;
+}
+ul.bottom_footer_links li {
+    margin-right: 5px;
+}
+ul.bottom_footer_links li a {
+    text-decoration: none;
+    color: #000;
+}
