@@ -13,17 +13,26 @@ html {
 	background-position:center;
 }
 li.nav-item .nav-link {
-    color: #fff;
+    color: #F5F2E8;
     font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+li.nav-item .nav-link:hover {
+    color: #Fff;;
+    font-weight: 500;
 }
 header {
+    position: fixed;
     backdrop-filter: blur(100px);
+    top: 0;
+    z-index: 999;
+    width: 100%;
 }
 li.nav-item {
     margin-left: 20px;
 }
 .banner_content {
-    padding: 200px 0;
+    padding: 240px 0;
 	position: relative;
 }
 .banner_inner_content p {
@@ -307,4 +316,21 @@ ul.bottom_footer_links li {
 ul.bottom_footer_links li a {
     text-decoration: none;
     color: #000;
+}
+.nav-item.contact_button a {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to right, #A9682E, #9CABB1, #153E8E);
+    padding: 8px 20px;
+}
+.nav-item.contact_button a:hover {
+    background: linear-gradient(to right, #A9682E, #9CABB1, #153E8E);
+}
+.entdecken_content a:hover {
+    background: #fff;
+    color: #000;
+}
+.uper_footer_links ul li a.active_border {
+    text-decoration: underline;
 }
