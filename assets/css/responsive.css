@@ -23,6 +23,14 @@
     ul.bottom_footer_links li a {
         font-size: 14px;
     }
+    .wir_bringen_inner:before {
+        width: 560px;
+        top: 285px;
+    }
+    .wir_bringen_inner:after {
+        height: 255px;
+        top: 286px;
+    }
 }
 
 
