@@ -2,6 +2,15 @@
     .right_wir_2 {
         padding-right: 150px;
     }
+    .left_wir_2.one_line:before {
+        top: -185px;
+    }
+}
+@media screen and (max-width:1399px){
+    .left_wir_2.one_line:before {
+        top: -200px;
+        height: 225px;
+    }
 }
 
 @media screen and (max-width:1199px) {
