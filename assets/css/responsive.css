@@ -115,6 +115,10 @@
     .service h2 {
         font-size: 35px;
     }
+    .footer_logo img {
+        max-width: 160px;
+
+    }
 }
 
 @media screen and (max-width:400px)
