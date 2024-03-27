@@ -245,7 +245,7 @@ h2.faq_h2 {
 .accordion-button {
 	font-size: 16px;
     color: #F5F2E8;
-    background-color: #1d2942;
+    background-color: transparent;
 	border: unset;
 	outline: unset;
 	box-shadow: unset;
