@@ -143,6 +143,11 @@
     .right_wir_2 {
         padding-left: 70px;
     }
+    .right_side_footer p i {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:400px)
