@@ -514,5 +514,10 @@ ul.bottom_footer_links li a {
 .navbar-toggler-icon {
     filter: invert(1);
 }
+
+body{
+    width:100%!important;
+    overflow-x: hidden!important;
+}
 /* font-family: "DM Sans", sans-serif; */
 /* font-family: "Space Grotesk", sans-serif; */

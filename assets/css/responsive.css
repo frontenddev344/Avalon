@@ -64,6 +64,12 @@
     .nav-item.contact_button a {
         display: inline-block;
     }
+    li.nav-item {
+        margin-bottom: 10px;
+    }
+    li.nav-item:first-child {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -80,5 +86,51 @@
 
 @media screen and (max-width:575px) {
    
+    ul.social_media_icon li a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .banner_inner_content h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .wir_bringen_inner h2 {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .left_wir_2 {
+        padding-left: 70px;
+        padding-bottom: 30px;
+    }
+    .design_refrence_div {
+        padding-left: 70px;
+    }
+    .entdecken_content {
+        padding-left: 35px;
+    }
+    .entdecken_section h2 {
+        font-size: 40px;
+    }
+    .service h2 {
+        font-size: 35px;
+    }
+}
 
+@media screen and (max-width:400px)
+{
+    ul.social_media_icon li {
+        margin-right: 15px;
+    }
+    ul.social_media_icon li a {
+        width: 30px;
+        height: 30px;
+    }
+    .right_side_footer h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    a.navbar-brand img {
+        max-width: 160px;
+    }
 }
