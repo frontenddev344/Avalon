@@ -274,6 +274,7 @@ h2.faq_h2 {
 }
 footer {
     padding: 60px 0;
+    padding-bottom: 30px;
 }
 
 
@@ -320,7 +321,7 @@ ul.social_media_icon {
 	padding-top: 100px;
 }
 ul.social_media_icon li {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 ul.social_media_icon li a {
     color: #000;
@@ -522,7 +523,21 @@ ul.bottom_footer_links li a {
 .blog_page_wrapper {
     padding-top: 200px;
 }
-
+.right_side_footer p i {
+    color: #000000cf;
+    border: 1px solid #00000026;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.4s;
+    margin-left: 20px;
+}
 
 
 
