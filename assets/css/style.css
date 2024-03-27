@@ -522,7 +522,8 @@ ul.bottom_footer_links li a {
 }
 
 .blog_page_wrapper {
-    padding-top: 200px;
+    background: #0C1934;
+    padding: 200px 0;
 }
 .right_side_footer p i {
     color: #000000cf;
@@ -544,18 +545,59 @@ ul.bottom_footer_links li a {
 .navbar-brand:focus-visible {
     outline: unset;
 }
+.round_btns {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+}
+.round_btns .button_round_1 {
+    background: #2A2C3D;
+    border-radius: 18px;
+    color: #F5F2E8;
+    padding: 6px 18px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #fff;
+}
+.round_btns .button_round_2 {
+    background: #2A2C3D;
+    border-radius: 18px;
+    color: #F5F2E8;
+    padding: 6px 18px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
+.search_card {
+    background-image: url(../images/search_new_bg.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
 
+.search_div input {
+    background: #4B5464;
+    padding: 8px;
+    outline: none;
+    border: 2px solid #f5f2eb;
+    border-radius: 10px;
+}
+.search_div {
+    margin-bottom: 40px;
+}
+.round_btns > div:first-child {
+    margin-right: 15px;
+}
 
-
-
-
-
-
-
-
-
+.search_div input::placeholder {
+    color: #fff;
+}
 
 
 
