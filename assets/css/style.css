@@ -538,6 +538,7 @@ ul.bottom_footer_links li a {
     font-size: 18px;
     transition: all 0.4s;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .navbar-brand:focus-visible {
