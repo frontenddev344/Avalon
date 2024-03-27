@@ -540,7 +540,9 @@ ul.bottom_footer_links li a {
     margin-left: 20px;
 }
 
-
+.navbar-brand:focus-visible {
+    outline: unset;
+}
 
 
 
