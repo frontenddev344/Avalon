@@ -1,4 +1,8 @@
-
+@media screen and (max-width:1440px){
+    .right_wir_2 {
+        padding-right: 60px;
+    }
+}
 
 @media screen and (max-width:1199px) {
     .banner_content {
@@ -30,6 +34,9 @@
     .wir_bringen_inner:after {
         height: 255px;
         top: 286px;
+    }
+    .right_wir_2 {
+        padding-right: 0px;
     }
 }
 
@@ -77,6 +84,12 @@
     }
     li.nav-item:first-child {
         margin-top: 20px;
+    }
+    .right_wir_2 {
+        padding-left: 90px;
+    }
+    .design_refrence_div.in_second_roadmap {
+        padding: 80px 0;
     }
 }
 
@@ -126,6 +139,9 @@
     .footer_logo img {
         max-width: 160px;
 
+    }
+    .right_wir_2 {
+        padding-left: 70px;
     }
 }
 
