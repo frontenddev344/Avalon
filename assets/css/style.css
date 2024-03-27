@@ -1,13 +1,39 @@
 html {
 	scroll-behavior: smooth;
   }
+  p{
+    font-family: "DM Sans", sans-serif;
+  }
+  a{
+    font-family: "DM Sans", sans-serif;
+  }
+  span
+  {
+    font-family: "DM Sans", sans-serif;
+  }
+  h1
+  {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h2
+  {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h3
+  {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h4{
+    font-family: "Space Grotesk", sans-serif;
+  }
+
   a.navbar-brand img {
     width: 100%;
     max-width: 200px;
 }
 .heaedplus_banner{
 	background-image: url(../images/bg_banner.png);
-	background-size: cover;
+    background-size: 101% 100%;
 	background-repeat: no-repeat;
 	background-color: #02083c;
 	background-position:center;
@@ -32,7 +58,7 @@ li.nav-item {
     margin-left: 20px;
 }
 .banner_content {
-    padding: 240px 0;
+    padding: 280px 0;
 	position: relative;
 }
 .banner_inner_content p {
@@ -51,7 +77,7 @@ li.nav-item {
     margin: 0 auto;
     left: 0;
     right: 0;
-    bottom: 40px;
+    bottom: 50px;
     width: 40px;
 	cursor: pointer;
 }
@@ -86,11 +112,13 @@ li.nav-item {
 .wir_bringen_inner {
     padding-left: 160px;
 	padding-top: 120px;
+    position: relative;
 
 }
 .wir_brigen_ai2main {
     background: #0C1934;
-    padding: 120px 0;
+    padding: 180px 0;
+    position: relative;
 }
 .uper_para_wir p {
     font-weight: bold;
@@ -108,11 +136,13 @@ li.nav-item {
     color: #D25008;
     font-weight: bold;
     font-size: 22px;
-	padding-left: 160px;
+	
 }
 .design_refrence_div {
     padding-top: 80px;
 	padding-bottom: 80px;
+    padding-left: 160px;
+    position: relative;
 }
 .design_refrence_div.in_second_roadmap {
     visibility: hidden;
@@ -123,12 +153,12 @@ li.nav-item {
 .wir_brigen_wrapper {
     position: relative;
 }
-.wir_brigen_wrapper img {
+/* .wir_brigen_wrapper img {
     position: absolute;
     left: 350px;
     top: 340px;
     max-width: 470px;
-}
+} */
 .entdecken_section {
     padding: 120px 0;
 }
@@ -303,6 +333,11 @@ ul.social_media_icon li a {
     height: 50px;
     text-decoration: none;
     font-size: 20px;
+    transition: all 0.4s;
+}
+ul.social_media_icon li a:hover {
+    background: #000;
+    color: #fff;
 }
 ul.bottom_footer_links {
     display: flex;
@@ -318,14 +353,20 @@ ul.bottom_footer_links li a {
     color: #000;
 }
 .nav-item.contact_button a {
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 5px;
-    border-image-source: linear-gradient(to right, #A9682E, #9CABB1, #153E8E);
-    padding: 8px 20px;
-}
-.nav-item.contact_button a:hover {
-    background: linear-gradient(to right, #A9682E, #9CABB1, #153E8E);
+    background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
+    border-radius: 10px;
+    display: block;
+    font: 1.125rem 'Oswald', Arial, sans-serif;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 120px;
+    z-index: 2;
+    border-width: 0px;
 }
 .entdecken_content a:hover {
     background: #fff;
@@ -334,3 +375,144 @@ ul.bottom_footer_links li a {
 .uper_footer_links ul li a.active_border {
     text-decoration: underline;
 }
+
+.nav-item.contact_button a span {
+    align-items: center;
+    background: #02083c;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.nav-item.contact_button a span:hover {
+    background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
+}
+
+.wir_bringen_inner:before {
+    position: absolute;
+    content: '';
+    width: 750px;
+    height: 2px;
+    background: #fff;
+    top: 240px;
+    left: 30px;
+}
+.wir_bringen_inner:after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 230px;
+    background: #fff;
+    top: 240px;
+    left: 30px;
+}
+.left_wir_2.one_line {
+    position: relative;
+}
+.left_wir_2.second_line {
+    position: relative;
+}
+.left_wir_2.third_line {
+    position: relative;
+}
+
+.left_wir_2.one_line:before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 215px;
+    background: #fff;
+    top: -180px;
+    left: 30px;
+}
+
+.left_wir_2.one_line:after {
+    position: absolute;
+    content: '1';
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    top: 45px;
+    left: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+.design_refrence_div:before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 245px;
+    background: #f5f2e894;
+    top: -22px;
+    left: 30px;
+}
+.left_wir_2.second_line:before {
+    position: absolute;
+    content: '2';
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    top: 40px;
+    left: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+.left_wir_2.second_line:after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 65px;
+    background: #f5f2e894;
+    top: 100px;
+    left: 30px;
+}
+.left_wir_2.third_line:before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 65px;
+    background: #f5f2e894;
+    top: -40px;
+    left: 30px;
+}
+.left_wir_2.third_line:after{
+    position: absolute;
+    content: '7';
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    top: 40px;
+    left: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Space Grotesk", sans-serif; */

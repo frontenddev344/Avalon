@@ -1,33 +1,81 @@
-@media screen and (max-width:1800px) {
-    .wir_brigen_wrapper img {
-        left: 240px;
-    } 
-}
-@media screen and (max-width:1599px) {
-    .wir_brigen_wrapper img {
-        left: 150px;
-    }
-}
-@media screen and (max-width:1399px) {
-    .wir_brigen_wrapper img {
-        left: 140px;
-        top: 340px;
-        max-width: 485px;
-    }
-}
+
+
 @media screen and (max-width:1199px) {
-    .wir_brigen_wrapper img {
-       display: none;
+    .banner_content {
+        padding: 220px 0;
+    }
+    .banner_inner_content p {
+        font-size: 20px;
+    }
+    .banner_inner_content h1 {
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .left_wir_2.one_line:before {
+        top: -188px;
+    }
+    .arrow_down img {
+        width: 30px;
+    }
+    .entdecken_section h2 {
+        font-size: 60px;
+    }
+    ul.bottom_footer_links li a {
+        font-size: 14px;
     }
 }
 
 
 @media screen and (max-width:991px) {
-  
+    .wir_bringen_inner:before {
+        position: unset;
+    }
+    .wir_bringen_inner {
+        text-align: center;
+        padding-left: 0;
+    }
+    .wir_bringen_inner:after {
+        height: 100px;
+        top: 362px;
+    }
+    .left_wir_2 {
+        padding-left: 90px;
+        padding-bottom: 30px;
+    }
+    .design_refrence_div {
+        padding-left: 90px;
+    }
+    .design_refrence_div:before {
+        height: 220px;
+        top: 0px;
+    }
+    .left_wir_2.second_line:after {
+        height: 35px;
+    }
+    .entdecken_content {
+        padding-left: 90px;
+    }
+    ul.bottom_footer_links {
+        display: block;
+    }
+    ul.social_media_icon {
+        padding-top: 25px;
+    }
+    .nav-item.contact_button a {
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width:767px) {
-   
+    .banner_inner_content {
+        text-align: center;
+    }
+    .wir_bringen_inner {
+        padding-top: 60px;
+    }
+    .wir_brigen_ai2main {
+        padding: 120px 0;
+    }
 }
 
 @media screen and (max-width:575px) {
