@@ -139,12 +139,13 @@ li.nav-item {
 	
 }
 .design_refrence_div {
-    padding-top: 80px;
-	padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 160px;
     position: relative;
 }
 .design_refrence_div.in_second_roadmap {
+    padding: 120px 0;
     visibility: hidden;
 }
 .left_wir_2 {
