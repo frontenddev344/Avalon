@@ -633,9 +633,21 @@ ul.bottom_footer_links li a {
     background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
 }
 
-.technik_wrapper .second_row_blog
-{
-    
+
+.technik_wrapper .second_row_blog{
+    position: relative;
+}
+.technik_wrapper .second_row_blog::before {
+    position: absolute;
+    background-image: url(../images/image_in_uper_blog.png);
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
 }
 
 
