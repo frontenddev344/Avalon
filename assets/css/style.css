@@ -652,6 +652,257 @@ ul.bottom_footer_links li a {
     z-index: 1;
 }
 
+.detail_page_wrapper {
+    background: #0C1934;
+    padding: 200px 0;
+    height: 4000px;
+}
+.tab {
+    float: left;
+    width: 30%;
+    height: auto;
+    background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
+    padding: 40px 0px;
+    padding-left: 50px;
+}
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: #a8adb6;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: unset;
+    color: #fff;
+}
+.tab button.active.tablinks:before
+{
+    background:#fff;
+}
+.tabcontent {
+    color: #fff;
+}
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+  }
+
+
+  .tab .tablinks:first-child {
+    position: relative;
+}
+.tab .tablinks:nth-child(2) {
+    position: relative;
+}
+.tab .tablinks:nth-child(3) {
+    position: relative;
+} 
+ .tab .tablinks:nth-child(4) {
+    position: relative;
+}
+.tab .tablinks:nth-child(5) {
+    position: relative;
+}
+.tab .tablinks:nth-child(6) {
+    position: relative;
+}
+.tab .tablinks:nth-child(7) {
+    position: relative;
+}
+
+.tab .tablinks:first-child:before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9399a4;
+    content: '';
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+}
+.tab .tablinks:first-child:after {
+    position: absolute;
+    width: 2px;
+    height: 21px;
+    background: #9399a4;
+    content: '';
+    border-radius: unset;
+    left: -28px;
+    top: 25px;
+}
+
+.tab .tablinks:nth-child(2):before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9399a4;
+    content: '';
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+}
+.tab .tablinks:nth-child(2):after {
+    position: absolute;
+    width: 2px;
+    height: 21px;
+    background: #9399a4;
+    content: '';
+    border-radius: unset;
+    left: -28px;
+    top: 25px;
+}
+
+.tab .tablinks:nth-child(3):before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9399a4;
+    content: '';
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+}
+.tab .tablinks:nth-child(3):after {
+    position: absolute;
+    width: 2px;
+    height: 21px;
+    background: #9399a4;
+    content: '';
+    border-radius: unset;
+    left: -28px;
+    top: 25px;
+}
+.tab .tablinks:nth-child(4):before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9399a4;
+    content: '';
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+}
+.tab .tablinks:nth-child(4):after {
+    position: absolute;
+    width: 2px;
+    height: 21px;
+    background: #9399a4;
+    content: '';
+    border-radius: unset;
+    left: -28px;
+    top: 25px;
+}
+.tab .tablinks:nth-child(5):before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9399a4;
+    content: '';
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+}
+.tab .tablinks:nth-child(5):after {
+    position: absolute;
+    width: 2px;
+    height: 21px;
+    background: #9399a4;
+    content: '';
+    border-radius: unset;
+    left: -28px;
+    top: 25px;
+}
+.tab .tablinks:nth-child(6):before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9399a4;
+    content: '';
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+}
+.tab .tablinks:nth-child(6):after {
+    position: absolute;
+    width: 2px;
+    height: 21px;
+    background: #9399a4;
+    content: '';
+    border-radius: unset;
+    left: -28px;
+    top: 25px;
+}
+.tab .tablinks:nth-child(7):before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9399a4;
+    content: '';
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+}
+
+.tabcontent h1 {
+    font-size: 69px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 70px;
+}
+
+
+.tabcontent h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #9399a4;
+    margin-top: 55px;
+}
+.tabcontent h3 span {
+    color: #fff;
+}
+.tabcontent p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9399a4;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.tabcontent p span {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
