@@ -961,7 +961,9 @@ ul.ul_detail_one li {
     background: #18253E;
 }
 
-
+.content_for_ul_deatail h4 {
+    text-transform: capitalize;
+}
 
 
 
