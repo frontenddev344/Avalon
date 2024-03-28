@@ -864,7 +864,7 @@ ul.bottom_footer_links li a {
     top: 5px;
 }
 
-.tabcontent h1 {
+.tabcontent .h1para {
     font-size: 69px;
     font-weight: bold;
     color: #fff;
@@ -960,8 +960,6 @@ ul.ul_detail_one li {
 .detail_page header {
     background: #18253E;
 }
-
-
 
 
 
