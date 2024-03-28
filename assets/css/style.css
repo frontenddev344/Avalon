@@ -642,6 +642,7 @@ ul.bottom_footer_links li a {
 .content_technik {
     padding: 60px 20px;
     background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
+    padding-left: 50px;
 }
 
 .blog_img_bottom {
