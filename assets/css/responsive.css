@@ -180,6 +180,10 @@
     .search_div i {
         right: 240px;
     }
+    .tabcontent .h1para {
+        font-size: 55px;
+        line-height: 60px;
+    }
 }
 
 @media screen and (max-width:767px) {
