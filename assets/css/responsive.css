@@ -1,3 +1,8 @@
+@media screen and (max-width:1499px){
+    .main_content_under_tab_3 {
+        padding-right: 35%;
+    }
+}
 @media screen and (max-width:1440px){
     .right_wir_2 {
         padding-right: 150px;
@@ -10,6 +15,13 @@
     .left_wir_2.one_line:before {
         top: -200px;
         height: 225px;
+    }
+    .main_content_under_tab_3 {
+        padding-right: 20%;
+        padding-left: 100px;
+    }
+    .das_team {
+        height: 500px;
     }
 }
 
@@ -46,6 +58,23 @@
     }
     .right_wir_2 {
         padding-right: 0px;
+    }
+    .tab_left_parent {
+        padding-left: 5%;
+    }
+    .tab {
+        padding-left: 60px;
+    }
+    .main_content_under_tab_3 {
+        padding-right: 15%;
+        padding-left: 60px;
+    }
+    .das_team {
+        height: 400px;
+    }
+    .das_team_inner {
+        top: 60px;
+        left: 50px;
     }
 }
 
@@ -103,6 +132,40 @@
     header {
         background: #0c1934;
     }
+    .tab {
+        width: 35%;
+    }
+    .tabcontent {
+        width: 55%;
+    }
+    .tab_left_parent {
+        padding-left: 2%;
+    }
+    .tabcontent h1 {
+        font-size: 45px;
+        line-height: 46px;
+    }
+    .tabcontent h3 {
+        font-size: 28px;
+    }
+    .das_team {
+        height: 360px;
+    }
+    .das_team_inner {
+        top: 30px;
+        left: 25px;
+    }
+    .das_team_inner p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #9399a4;
+        margin-top: 25px;
+        line-height: 25px;
+    }
+    .main_content_under_tab_3 {
+        padding-right: 5%;
+        padding-left: 40px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -114,6 +177,27 @@
     }
     .wir_brigen_ai2main {
         padding: 120px 0;
+    }
+    .tab {
+        width: 95%;
+        margin: 0 auto;
+        float: unset;
+    }
+    .tab_left_parent {
+        padding-left: 0;
+    }
+    .tabcontent {
+        margin: 0 auto;
+        width: 95%;
+        float: unset;
+        margin-top: 50px;
+    }
+    .main_content_under_tab_3 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .detail_page {
+        padding-top: 150px;
     }
 }
 
