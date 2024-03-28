@@ -872,6 +872,7 @@ ul.bottom_footer_links li a {
     font-weight: bold;
     color: #fff;
     line-height: 70px;
+    margin-top: -10px;
 }
 
 
@@ -971,7 +972,10 @@ ul.ul_detail_one li b {
     color: #ffffffb3;
     font-weight: 500;
 }
-
+.content_for_ul_deatail p b{
+    color: #ffffffb3;
+    font-weight: 500;
+}
 
 
 
