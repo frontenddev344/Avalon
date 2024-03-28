@@ -888,10 +888,25 @@ ul.bottom_footer_links li a {
     color: #fff;
 }
 
+.content_for_ul_deatail {
+    margin-top: 55px;
+}
 
-
-
-
+.content_for_ul_deatail p {
+    margin-top: 25px;
+}
+ul.ul_detail_one {
+    margin-top: 25px;
+    padding-left: 15px;
+}
+ul.ul_detail_one li {
+    margin-bottom: 15px;
+    color: #878d9a;
+}
+.content_for_ul_deatail.c_f_u_detail2 .ul_detail_one {
+    list-style: none;
+    padding-left: 0;
+}
 
 
 
