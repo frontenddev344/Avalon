@@ -357,11 +357,14 @@ ul.bottom_footer_links li a {
 }
 .nav-item.contact_button a {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
-    border-radius: 13px;
+    border-radius: 14px;
     display: block;
     letter-spacing: 1px;
     margin: 0 auto;
-    padding: 5px;
+    padding-left: 4px!important;
+    padding-right: 4px!important;
+    padding-top: 4px;
+    padding-bottom: 4px;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -383,7 +386,7 @@ ul.bottom_footer_links li a {
 .nav-item.contact_button a span {
     align-items: center;
     background: #02083c;
-    border-radius: 7px;
+    border-radius: 11px;
     display: flex;
     justify-content: center;
     height: 100%;
