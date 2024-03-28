@@ -357,19 +357,20 @@ ul.bottom_footer_links li a {
 }
 .nav-item.contact_button a {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
-    border-radius: 10px;
+    border-radius: 13px;
     display: block;
-    font: 1.125rem 'Oswald', Arial, sans-serif;
-    height: 40px;
     letter-spacing: 1px;
     margin: 0 auto;
     padding: 5px;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    width: 120px;
+    width: 106px;
+    height: 38px;
     z-index: 2;
     border-width: 0px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .entdecken_content a:hover {
     background: #fff;
@@ -382,7 +383,7 @@ ul.bottom_footer_links li a {
 .nav-item.contact_button a span {
     align-items: center;
     background: #02083c;
-    border-radius: 5px;
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     height: 100%;
@@ -665,6 +666,7 @@ ul.bottom_footer_links li a {
     background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
     padding: 40px 0px;
     padding-left: 80px;
+    border-radius: 5px;
 }
   
   /* Style the buttons inside the tab */
