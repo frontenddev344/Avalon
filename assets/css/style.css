@@ -990,6 +990,9 @@ ul.ul_detail_one li b {
     background-repeat: no-repeat;
     z-index: 1;
 }
+.content_technik a {
+    text-decoration: none;
+}
 
 
 
