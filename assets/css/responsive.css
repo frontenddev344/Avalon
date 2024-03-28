@@ -77,6 +77,7 @@
     }
     .das_team {
         height: 400px;
+        margin-right: -50px;
     }
     .das_team_inner {
         top: 60px;
@@ -159,6 +160,7 @@
     }
     .das_team {
         height: 360px;
+        margin-right: -90px;
     }
     .das_team_inner {
         top: 30px;
@@ -213,6 +215,10 @@
     }
     .search_div i {
         right: 150px;
+    }
+    .das_team {
+        height: 360px;
+        margin-right: 0px;
     }
 }
 
