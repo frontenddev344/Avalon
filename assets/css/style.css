@@ -555,7 +555,7 @@ ul.bottom_footer_links li a {
     background: #2A2C3D;
     border-radius: 18px;
     color: #F5F2E8;
-    padding: 6px 18px;
+    padding: 6px 26px;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -582,6 +582,7 @@ ul.bottom_footer_links li a {
     border-radius: 10px;
     position: sticky;
     top: 200px;
+    z-index: 1;
 }
 
 .search_div input {
@@ -650,6 +651,7 @@ ul.bottom_footer_links li a {
     margin: 0 auto;
     left: 0;
     right: 0;
+    z-index: -0;
 }
 
 
