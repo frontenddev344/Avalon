@@ -957,7 +957,9 @@ ul.ul_detail_one li {
     margin-top: 55px;
     padding-bottom: 100px;
 }
-
+.detail_page header {
+    background: #18253E;
+}
 
 
 
