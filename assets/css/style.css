@@ -593,13 +593,20 @@ ul.bottom_footer_links li a {
 }
 .search_div {
     margin-bottom: 40px;
+    position: relative;
+}
+.search_div i {
+    position: absolute;
+    right: 45px;
+    top: 15px;
+    color: #ffffffa6;
 }
 .round_btns > div:first-child {
     margin-right: 15px;
 }
 
 .search_div input::placeholder {
-    color: #fff;
+    color: #ffffff70;
 }
 
 .content_technik h3 {
