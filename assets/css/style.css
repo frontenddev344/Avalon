@@ -977,10 +977,19 @@ ul.ul_detail_one li b {
     font-weight: 500;
 }
 
-
-
-
-
+.detail_page_wrapper{
+    position: relative;
+}
+.detail_page_wrapper::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 200px;
+    right: 0;
+    background-image: url(../images/detail_side_img.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
 
 
 
