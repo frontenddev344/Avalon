@@ -578,7 +578,7 @@ ul.bottom_footer_links li a {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px 20px;
     border-radius: 10px;
     position: sticky;
     top: 200px;
@@ -640,7 +640,7 @@ ul.bottom_footer_links li a {
     padding: 2px 15px;
 }
 .content_technik {
-    padding: 50px 20px;
+    padding: 60px 20px;
     background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
 }
 
