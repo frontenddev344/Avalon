@@ -2,6 +2,12 @@
     .main_content_under_tab_3 {
         padding-right: 25%;
     }
+    .das_team {
+        height: 480px;
+    }
+    .das_team_inner {
+        top: 100px;
+    }
 }
 @media screen and (max-width:1440px){
     .right_wir_2 {
