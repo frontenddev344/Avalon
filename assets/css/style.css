@@ -984,7 +984,7 @@ ul.ul_detail_one li b {
 .detail_page_wrapper::before {
     position: absolute;
     content: '';
-    height: 800px;
+    height: 801px;
     width: 200px;
     right: 0;
     background-image: url(../images/detail_side_img.png);
