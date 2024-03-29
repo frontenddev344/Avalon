@@ -646,6 +646,7 @@ ul.bottom_footer_links li a {
     padding: 60px 20px;
     background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
     padding-left: 50px;
+    transition: all 0.4s;
 }
 
 .blog_img_bottom {
@@ -993,7 +994,14 @@ ul.ul_detail_one li b {
 .content_technik a {
     text-decoration: none;
 }
-
+.image_technik a:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+}
+.content_technik:hover {
+    background: linear-gradient(50deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
+}
 
 
 
