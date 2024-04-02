@@ -90,6 +90,9 @@
 
 
 @media screen and (max-width:991px) {
+    header{
+        padding: 0;
+    }
     .wir_bringen_inner:before {
         position: unset;
     }
@@ -139,9 +142,7 @@
     .design_refrence_div.in_second_roadmap {
         padding: 80px 0;
     }
-    header {
-        background: #0c1934;
-    }
+  
     .tab {
         width: 35%;
     }

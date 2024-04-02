@@ -45,7 +45,7 @@ li.nav-item .nav-link {
 }
 li.nav-item .nav-link:hover {
     color: #Fff;;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 header {
     position: fixed;
@@ -53,6 +53,7 @@ header {
     top: 0;
     z-index: 999;
     width: 100%;
+    padding: 0 20px;
 }
 li.nav-item {
     margin-left: 20px;
@@ -359,7 +360,6 @@ ul.bottom_footer_links li a {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
     border-radius: 14px;
     display: block;
-    letter-spacing: 1px;
     margin: 0 auto;
     padding-left: 4px!important;
     padding-right: 4px!important;
@@ -394,6 +394,7 @@ ul.bottom_footer_links li a {
     width: 100%;
     font-size: 16px;
     text-transform: capitalize;
+    transition: all 0.9s ease;
 }
 .nav-item.contact_button a span:hover {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
@@ -520,9 +521,6 @@ ul.bottom_footer_links li a {
 }
 .navbar-toggler-icon {
     filter: invert(1);
-}
-.blog_page header {
-    background: #18253E;
 }
 
 .blog_page_wrapper {
@@ -962,9 +960,7 @@ ul.ul_detail_one li {
     margin-top: 55px;
     padding-bottom: 100px;
 }
-.detail_page header {
-    background: #18253E;
-}
+
 
 .content_for_ul_deatail h4 {
     text-transform: capitalize;
