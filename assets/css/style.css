@@ -29,7 +29,8 @@ html {
 
   a.navbar-brand img {
     width: 100%;
-    max-width: 200px;
+    max-width: 180px;
+    padding-left: 10px;
 }
 .heaedplus_banner{
 	background-image: url(../images/bg_banner.png);
@@ -54,6 +55,7 @@ header {
     z-index: 999;
     width: 100%;
     padding: 0 20px;
+    background: #ffffff0d;
   
 }
 li.nav-item {
@@ -298,7 +300,7 @@ footer {
 }
 
 .footer_logo img {
-    max-width: 225px;
+    max-width: 180px;
     margin-bottom: 30px;
 }
 .bottom_address p:first-child {margin-bottom: 6px;}
