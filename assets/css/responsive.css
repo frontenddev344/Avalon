@@ -273,6 +273,10 @@
     .search_div i {
         right: 32%;
     }
+    li.nav-item {
+        text-align: center;
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width:400px)
