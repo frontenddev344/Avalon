@@ -1012,8 +1012,16 @@ ul.ul_detail_one li b {
 
 
 
+.navbar-toggler-icon {
 
+    background-image:url(../images/cross_black.png);
+    width: 30px;
+}
 
+.navbar-toggler.collapsed .navbar-toggler-icon{
+    background-image:url(../images/hamburger.png);
+    width: 30px;
+}
 
 body{
     width:100%!important;
