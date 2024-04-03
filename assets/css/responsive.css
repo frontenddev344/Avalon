@@ -10,18 +10,18 @@
     }
 }
 @media screen and (max-width:1440px){
-    .right_wir_2 {
+    /* .right_wir_2 {
         padding-right: 150px;
     }
     .left_wir_2.one_line:before {
         top: -185px;
-    }
+    } */
 }
 @media screen and (max-width:1399px){
-    .left_wir_2.one_line:before {
+    /* .left_wir_2.one_line:before {
         top: -200px;
         height: 225px;
-    }
+    } */
     .main_content_under_tab_3 {
         padding-right: 20%;
         padding-left: 100px;
@@ -86,6 +86,30 @@
     .content_technik {
         padding-left: 10px;
     }
+    .left_wir_2.one_line:before {
+        height: 235px;
+    }
+    .design_refrence_div:before {
+        height: 320px;
+        top: -40px;
+    }
+    .left_wir_2.second_line:after {
+        height: 370px;
+    }
+    .left_wir_2.third_line:after {
+        height: 365px;
+    }
+    .left_wir_2.four_line:after {
+        height: 365px;
+    }
+    .left_wir_2.five_line:after {
+        height: 289px;
+    }
+    .left_wir_2.last_line:before {
+
+        height: 370px;
+        top: -330px;
+    }
 }
 
 
@@ -112,11 +136,25 @@
         padding-left: 90px;
     }
     .design_refrence_div:before {
-        height: 220px;
-        top: 0px;
+        height: 450px;
+        top: -175px;
     }
     .left_wir_2.second_line:after {
-        height: 35px;
+        height: 415px;
+    }
+    .left_wir_2.third_line:after {
+        height: 415px;
+    }
+    .left_wir_2.four_line:after {
+        height: 410px;
+    }
+    .left_wir_2.six_line:before {
+        height: 130px;
+        top: -86px;
+    }
+    .left_wir_2.last_line:before {
+        height: 420px;
+        top: -375px;
     }
     .entdecken_content {
         padding-left: 90px;
@@ -225,6 +263,27 @@
         height: 360px;
         margin-right: 0px;
     }
+    .design_refrence_div:before {
+        height: 470px;
+        top: -195px;
+    }
+    .left_wir_2.second_line:after {
+        height: 430px;
+    }
+    .left_wir_2.third_line:after {
+        height: 430px;
+    }
+    .left_wir_2.four_line:after {
+        height: 430px;
+    }
+    .left_wir_2.six_line:before {
+        height: 145px;
+        top: -103px;
+    }
+    .left_wir_2.last_line:before {
+        height: 430px;
+        top: -390px;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -278,6 +337,53 @@
         margin-left: 0;
     }
 }
+@media screen and (max-width:503px)
+{
+    .design_refrence_div:before {
+        height: 485px;
+        top: -210px;
+    }
+    .left_wir_2.second_line:after {
+        height: 452px;
+    }
+    .left_wir_2.third_line:after {
+        height: 450px;
+    }
+    .left_wir_2.four_line:after {
+        height: 450px;
+    }
+    .left_wir_2.six_line:before {
+        height: 165px;
+        top: -124px;
+    }
+    .left_wir_2.last_line:before {
+        height: 450px;
+        top: -410px;
+    }
+}
+@media screen and (max-width:442px)
+{
+    .design_refrence_div:before {
+        height: 506px;
+        top: -232px;
+    }
+    .left_wir_2.second_line:after {
+        height: 480px;
+    }
+    .left_wir_2.third_line:after {
+        height: 470px;
+    }
+    .left_wir_2.four_line:after {
+        height: 475px;
+    }
+    .left_wir_2.five_line:after {
+        height: 311px;
+    }
+    .left_wir_2.last_line:before {
+        height: 470px;
+        top: -430px;
+    }
+}
 
 @media screen and (max-width:400px)
 {
@@ -295,4 +401,28 @@
     a.navbar-brand img {
         max-width: 160px;
     }
+}
+@media screen and (max-width:376px){
+    .design_refrence_div:before {
+        height: 530px;
+        top: -256px;
+    }
+    .left_wir_2.second_line:after {
+        height: 500px;
+    }
+    .left_wir_2.third_line:after {
+        height: 495px;
+    }
+    .left_wir_2.four_line:after {
+        height: 495px;
+    }
+    .left_wir_2.six_line:before {
+        height: 190px;
+        top: -147px;
+    }
+    .left_wir_2.last_line:before {
+        height: 505px;
+        top: -455px;
+    }
+
 }
