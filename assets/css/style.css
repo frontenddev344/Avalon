@@ -108,10 +108,10 @@ li.nav-item {
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 } */
 .wir_brigen_ai {
-    background-image: url(../images/video_in_bg_img1.png);
+    /* background-image: url(../images/video_in_bg_img1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     padding-top: 60px;
     padding-bottom: 120px;
 }
