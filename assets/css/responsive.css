@@ -123,6 +123,10 @@
 
 
 @media screen and (max-width:991px) {
+    li.nav-item {
+        text-align: center;
+        margin-left: 0px;
+    }
     header{
         padding: 0;
     }
@@ -204,7 +208,7 @@
         line-height: 46px;
     }
     .tabcontent h3 {
-        font-size: 28px;
+        font-size: 24px;
     }
     .das_team {
         height: 360px;
