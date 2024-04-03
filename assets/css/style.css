@@ -791,11 +791,11 @@ ul.bottom_footer_links li a {
 
 .tab {
     float: left;
-    width: 30%;
+    width:25%;
     height: auto;
     background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
-    padding: 40px 0px;
-    padding-left: 100px;
+    padding: 50px 0px;
+    padding-left: 85px;
     border-radius: 5px;
 }
   
@@ -832,7 +832,7 @@ ul.bottom_footer_links li a {
   .tabcontent {
     float: left;
     padding: 0px 12px;
-    width: 63%;
+    width: 67%;
     border-left: none;
   }
 

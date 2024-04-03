@@ -35,6 +35,9 @@
     .das_team {
         height: 500px;
     }
+    .tab {
+        padding-left: 60px;
+    }
 }
 
 @media screen and (max-width:1199px) {
@@ -242,9 +245,11 @@
         padding: 120px 0;
     }
     .tab {
-        width: 95%;
+        width: 100%;
+        max-width: 350px;
         margin: 0 auto;
         float: unset;
+        padding-left: 80px;
     }
     .tab_left_parent {
         padding-left: 0;
