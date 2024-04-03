@@ -123,6 +123,12 @@
 
 
 @media screen and (max-width:991px) {
+    .tab {
+        position: unset;
+    }
+    .tabcontent {
+        float: left;
+    }
     li.nav-item {
         text-align: center;
         margin-left: 0px;
