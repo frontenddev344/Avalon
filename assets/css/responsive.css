@@ -232,9 +232,9 @@
 }
 
 @media screen and (max-width:767px) {
-    .banner_inner_content {
+    /* .banner_inner_content {
         text-align: center;
-    }
+    } */
     .wir_bringen_inner {
         padding-top: 60px;
     }
