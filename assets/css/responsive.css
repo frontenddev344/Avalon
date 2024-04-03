@@ -347,6 +347,15 @@
         text-align: center;
         margin-left: 0;
     }
+    .accordion-button {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .accordion-body {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 @media screen and (max-width:503px)
 {

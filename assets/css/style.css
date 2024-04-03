@@ -251,7 +251,10 @@ h2.faq_h2 {
     font-size: 16px;
     color: #F5F2E8;
 	box-shadow: unset;
+    border-radius: 10px 10px 0px 0px;
+ 
 }
+
 .accordion-button {
 	font-size: 16px;
     color: #F5F2E8;
@@ -259,6 +262,9 @@ h2.faq_h2 {
 	border: unset;
 	outline: unset;
 	box-shadow: unset;
+    padding-left: 40px;
+    padding-top: 40px;
+    border-radius: 10px 10px 0px 0px;
 }
 .accordion-item {
     margin-bottom: 10px;
@@ -273,6 +279,10 @@ h2.faq_h2 {
 }
 .accordion-body {
     background: #0c1934;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 0px 0 10px 10px;
 }
 .accordion-button:focus {
     box-shadow: unset;
