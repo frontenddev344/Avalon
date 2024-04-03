@@ -1,3 +1,9 @@
+@media screen and (min-width:1200px){
+    .right_wir_2 p {
+        padding-left: 150px;
+    }
+}
+
 @media screen and (max-width:1499px){
     .main_content_under_tab_3 {
         padding-right: 25%;
