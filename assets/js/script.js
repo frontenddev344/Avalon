@@ -18,8 +18,32 @@ function openCity(evt, cityName) {
 
 
 
+//   window.addEventListener('scroll', function() {
+//     var scrollPosition = window.scrollY;
+//     var element = document.getElementById('scroll-change');
+
+//     // Change text color based on scroll position
+//     if (scrollPosition > 100) { // Change 100 to your desired scroll position
+//         element.style.color = 'red'; // Change to the desired color
+//     } else {
+//         element.style.color = 'black'; // Change to the default color
+//     }
+// });
 
 
+
+$(document).ready(function() {
+    var lastScrollTop = 0;
+    $(window).scroll(function(event) {
+        var st = $(this).scrollTop();
+        if (st > lastScrollTop){ // Scroll down
+            $('.scroll-blur').removeClass('blur'); // Remove blur class
+        } else { // Scroll up
+            $('.scroll-blur').addClass('blur'); // Add blur class
+        }
+        lastScrollTop = st;
+    });
+});
 
 
 

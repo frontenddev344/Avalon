@@ -39,12 +39,12 @@ html {
 	background-color: #02083c;
 	background-position:center;
 }
-li.nav-item .nav-link {
+li.nav-item a {
     color: #F5F2E8;
     font-weight: 400;
     transition: all 0.3s ease-in-out;
 }
-li.nav-item .nav-link:hover {
+li.nav-item a:hover {
     color: #Fff;;
     /* font-weight: 500; */
 }
@@ -1164,6 +1164,13 @@ video.fullscreen {
 
 
 
+.scroll-blur {
+    transition: filter 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.blur {
+    filter: blur(100px); /* Apply blur effect */
+}
 
 
 
