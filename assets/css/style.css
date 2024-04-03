@@ -200,6 +200,7 @@ li.nav-item {
 .service {
     padding: 120px 0;
     background: #0C1934;
+    padding-top: 180px;
 }
 .service_card h3 {
     color: #fff;
