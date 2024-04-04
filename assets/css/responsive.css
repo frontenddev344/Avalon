@@ -119,6 +119,14 @@
         height: 370px;
         top: -330px;
     }
+    .scroll-content-box .das_team {
+        margin-right: 0;
+    }
+
+    .scroll-tab-links {
+        padding: 50px 0 50px 20px;
+        width: 30%;
+    }
 }
 
 
@@ -245,6 +253,27 @@
     .mhcp-vertical-line {
         left: 75px;
     }
+    .scroll-content-box .das_team {
+        margin-right: 0;
+    }
+
+    .detail_page_wrapper {
+        padding-left: 2%;
+    }
+
+    .scroll-content-box.tabcontent {
+        width: 100%;
+    }
+    .scroll-tab-links{
+        width:35%;
+    }
+    .scroll-tab-links ul li a{
+        font-size:15px;
+    }
+    .tabcontent .h1para {
+    font-size: 45px;
+    line-height: 50px;
+}
 }
 
 @media screen and (max-width:767px) {
