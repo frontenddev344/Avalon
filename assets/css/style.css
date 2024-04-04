@@ -660,11 +660,11 @@ ul.bottom_footer_links li a {
     top: 140px;
     left: 120px;
     right: auto;
-    background: #b7b7b7;
+    background: #42484f;;
 }
 .mhcp-rectangle {
     width: 2px;
-    background: #ff8900;
+    background: #fff;
     border-radius: 0;
     content: "";
     height: 550px;
@@ -672,8 +672,9 @@ ul.bottom_footer_links li a {
     justify-content: center;
 }
 .mhcp-circle.active {
-    background-color: #ff8900;
-    color: #fff;
+    box-shadow: 0 0 28px #2c76f0;
+  background-color: #fff;
+  transform: scale(1.1);
 }
 .mhcp-circle.c1 {
     top: 3%;
@@ -703,20 +704,19 @@ ul.bottom_footer_links li a {
     border-radius: 50%;
     left: auto;
     right: auto;
-    width: 80px;
-    height: 80px;
+    width: 55px;
+    height: 55px;
     background-color: #ffffff;
-    border: 4px solid #b7b7b7;
+    border: unset;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    color: #b7b7b7;
+    color: #000;
     font-weight: 700;
-    font-family: "Source Code Pro";
+    transition: all 0.4s;
+
 }
-
-
 /* timeline css close */
 .navbar-toggler,
 .navbar-toggler:focus,
@@ -1379,4 +1379,7 @@ video.fullscreen {
         margin-bottom: 15px;
     }
 
+    .tab-scroll-content > .scroll-content-box:last-child {
+        min-height: calc(100vh - 160px);
+    }
  /* end */

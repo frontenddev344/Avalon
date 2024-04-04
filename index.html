@@ -576,64 +576,88 @@
 	  var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	else if (window.matchMedia("(min-width: 1600px)").matches) {
 	  var scrollTopMove = scrollTopFixed - 70;
-	  var firstCricle = 4;
+     var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	else if (window.matchMedia("(min-width: 1536px)").matches) {
 	  var scrollTopMove = scrollTopFixed;
-	  var firstCricle = 5;
+     var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	else if (window.matchMedia("(min-width: 1366px)").matches) {
 	  var scrollTopMove = scrollTopFixed - 70;
-	  var firstCricle = 4;
+     var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	else if (window.matchMedia("(min-width: 1280px)").matches) {
 	  var scrollTopMove = scrollTopFixed + 100;
-	  var firstCricle = 4;
+     var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	else if (window.matchMedia("(min-width: 1024px)").matches) {
 	  var scrollTopMove = scrollTopFixed;
-	  var firstCricle = 4;
+     var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	else if (window.matchMedia("(min-width: 768px)").matches) {
 	  var scrollTopMove = scrollTopFixed;
-	  var firstCricle = 4;
+     var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	else {
 	  var scrollTopMove = scrollTopFixed;
-	  var firstCricle = 4;
+     var firstCricle = 4;
 	  var SecondCricle = 33;
 	  var ThirdCricle = 56;
-	  var FourthCricle = 80;
-	  var maxLine = 80;
+	  var FourthCricle = 62;
+     var fiveCricle = 69;
+	  var sixCricle = 73;
+	  var sevenCricle = 80;
+	  var maxLine = 90;
 	}
 	var totalHeight = $('.wir_brigen_ai2main').height();
 	var scrollBlackLine = scrollTopMove / totalHeight * 100;
@@ -662,19 +686,19 @@
 	  else {
 		$('.mhcp-rectangle .mhcp-circle.c4').removeClass('active');
 	  }
-     if (scrollBlackLine > FourthCricle) {
+     if (scrollBlackLine > fiveCricle) {
 		$('.mhcp-rectangle .mhcp-circle.c5').addClass('active');
 	  }
 	  else {
 		$('.mhcp-rectangle .mhcp-circle.c5').removeClass('active');
 	  }
-     if (scrollBlackLine > FourthCricle) {
+     if (scrollBlackLine > sixCricle) {
 		$('.mhcp-rectangle .mhcp-circle.c6').addClass('active');
 	  }
 	  else {
 		$('.mhcp-rectangle .mhcp-circle.c6').removeClass('active');
 	  }
-     if (scrollBlackLine > FourthCricle) {
+     if (scrollBlackLine > sevenCricle) {
 		$('.mhcp-rectangle .mhcp-circle.c7').addClass('active');
 	  }
 	  else {
