@@ -297,6 +297,7 @@ h2.faq_h2 {
 footer {
     padding: 60px 0;
     padding-bottom: 30px;
+    background: #fff;
 }
 
 
@@ -757,7 +758,7 @@ ul.bottom_footer_links li a {
     list-style: none;
     padding-top: 30vh;
     position: relative;
-    z-index: 0;
+    z-index: -3;
   }
   
   .timeline:before {
