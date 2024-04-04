@@ -1386,3 +1386,13 @@ video.fullscreen {
         min-height: calc(100vh - 160px);
     }
  /* end */
+
+
+ /* .mhcp-vertical-line:After {
+    content: "";
+    position: absolute;
+    top: calc(-17% - 8px);
+    height: 17%;
+    width: 2px;
+    background: red;
+} */
