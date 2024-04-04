@@ -101,14 +101,21 @@
             </div>
          </div>
          <div class="wir_brigen_ai2main">
+            <div class="mhcp-vertical-line">
+               <div class="mhcp-rectangle" style="height: 284.891px;">
+                 <span class="mhcp-circle c1 active">1</span>
+                 <span class="mhcp-circle c2">2</span>
+                 <span class="mhcp-circle c3">3</span>
+                 <span class="mhcp-circle c4">4</span>
+                 <span class="mhcp-circle c5">5</span>
+                 <span class="mhcp-circle c6">6</span>
+                 <span class="mhcp-circle c7">7</span>
+               </div>
+             </div>
             <div class="wir_brigen_ai_2">
                <div class="container">
                   <div class="row align-items-center">
-                  <div class="col-lg-2">
-                     <div class="progress-container">
-                        <div class="progress-bar" id="myBar"></div>
-                      </div>
-                  </div>
+              
                      <div class="col-lg-6">
                         <div class="left_wir_2 one_line scroll-blur">
                            <div class="uper_para_wir">
@@ -555,6 +562,113 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="./assets/js/bootstrap.bundle.js"></script>
       <script src="./assets/js/script.js"></script>
-      
+
+
+      <script>
+          window.onscroll = () => {
+	let scrollTop = $(window).scrollTop();
+	//************************* Line move ****************************//
+	var topStartAnimation = $('.wir_brigen_ai2main').offset().top - $(window).height() / 2;
+	let scrollTopFixed = scrollTop - topStartAnimation;
+	//console.log('scroll '+scrollTopFixed);
+	if (window.matchMedia("(min-width: 1920px)").matches) {
+	  var scrollTopMove = scrollTopFixed;
+	  var firstCricle = 4;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	else if (window.matchMedia("(min-width: 1600px)").matches) {
+	  var scrollTopMove = scrollTopFixed - 70;
+	  var firstCricle = 4;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	else if (window.matchMedia("(min-width: 1536px)").matches) {
+	  var scrollTopMove = scrollTopFixed;
+	  var firstCricle = 5;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	else if (window.matchMedia("(min-width: 1366px)").matches) {
+	  var scrollTopMove = scrollTopFixed - 70;
+	  var firstCricle = 4;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	else if (window.matchMedia("(min-width: 1280px)").matches) {
+	  var scrollTopMove = scrollTopFixed + 100;
+	  var firstCricle = 4;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	else if (window.matchMedia("(min-width: 1024px)").matches) {
+	  var scrollTopMove = scrollTopFixed;
+	  var firstCricle = 4;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	else if (window.matchMedia("(min-width: 768px)").matches) {
+	  var scrollTopMove = scrollTopFixed;
+	  var firstCricle = 4;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	else {
+	  var scrollTopMove = scrollTopFixed;
+	  var firstCricle = 4;
+	  var SecondCricle = 33;
+	  var ThirdCricle = 56;
+	  var FourthCricle = 80;
+	  var maxLine = 80;
+	}
+	var totalHeight = $('.dental-care-steps').height();
+	var scrollBlackLine = scrollTopMove / totalHeight * 100;
+	//console.log(scrollBlackLine);
+	if (scrollBlackLine <= maxLine) { if (scrollBlackLine > firstCricle) {
+		$('.mhcp-rectangle .mhcp-circle.c1').addClass('active');
+	  }
+	  else {
+		$('.mhcp-rectangle .mhcp-circle.c1').addClass('active');
+	  }
+	  if (scrollBlackLine > SecondCricle) {
+		$('.mhcp-rectangle .mhcp-circle.c2').addClass('active');
+	  }
+	  else {
+		$('.mhcp-rectangle .mhcp-circle.c2').removeClass('active');
+	  }
+	  if (scrollBlackLine > ThirdCricle) {
+		$('.mhcp-rectangle .mhcp-circle.c3').addClass('active');
+	  }
+	  else {
+		$('.mhcp-rectangle .mhcp-circle.c3').removeClass('active');
+	  }
+	  if (scrollBlackLine > FourthCricle) {
+		$('.mhcp-rectangle .mhcp-circle.c4').addClass('active');
+	  }
+	  else {
+		$('.mhcp-rectangle .mhcp-circle.c4').removeClass('active');
+	  }
+	  $('.mhcp-rectangle').css('height', scrollTopMove + 'px');
+	}
+	else {
+	  $('.mhcp-rectangle').css('height', '100%');
+	  $('.mhcp-rectangle .mhcp-circle').addClass('active');
+	}
+}
+      </script>
    </body>
 </html>

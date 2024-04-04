@@ -650,7 +650,70 @@ ul.bottom_footer_links li a {
     font-weight: 700;
 }  */
 
-
+.mhcp-vertical-line {
+    background: #F4F4F4;
+    border-radius: 24px;
+    width: 2px;
+    margin: 0 auto;
+    height: 90%;
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    right: auto;
+    background: #b7b7b7;
+}
+.mhcp-rectangle {
+    width: 2px;
+    background: #ff8900;
+    border-radius: 0;
+    content: "";
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+.mhcp-circle.active {
+    background-color: #ff8900;
+    color: #fff;
+}
+.mhcp-circle.c1 {
+    top: 3%;
+}
+.mhcp-circle.c2 {
+    top: 17%;
+}
+.mhcp-circle.c3 {
+    top: 33%;
+}
+.mhcp-circle.c4 {
+    top: 48%;
+}
+.mhcp-circle.c5 {
+    top: 64%;
+}
+.mhcp-circle.c6 {
+    top: 90%;
+}
+.mhcp-circle.c7 {
+    top: 64%;
+}
+.mhcp-rectangle .mhcp-circle {
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    left: auto;
+    right: auto;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border: 4px solid #b7b7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #b7b7b7;
+    font-weight: 700;
+    font-family: "Source Code Pro";
+}
 
 
 /* timeline css close */
@@ -1205,3 +1268,114 @@ video.fullscreen {
 
 
 
+
+
+/* detail page css */
+
+      /* Navigation */
+
+      .scroll-tab-links {
+        top: 150px;
+        float: left;
+        width: 25%;
+        height: auto;
+        background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
+        padding: 50px 0px 50px 50px;
+        border-radius: 5px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .scroll-tab-links ul {
+        margin: 0 auto;
+        list-style: none;
+        padding: 0;
+        margin-left: 25px;
+    }
+
+    .scroll-tab-links ul li {
+        display: block;
+        margin: 0 10px;
+        position: relative;
+    }
+
+    .scroll-tab-links ul li a {
+        display: inline-block;
+        background-color: inherit;
+        color: #a8adb6;
+        width: auto;
+        border-bottom: 2px solid transparent;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-decoration: none;
+    }
+
+    .scroll-tab-links ul li a:hover {
+        color: #fff;
+    }
+
+    .scroll-tab-links ul li.active a {
+        color: #fff;
+    }
+
+    /* Scroll Content Boxes */
+
+    .scroll-content-box {
+        width: 100%;
+        min-height: 450px;
+        padding-bottom: 60px;
+    }
+
+    .detail_page_wrapper {
+        padding-left: 10%;
+    }
+
+    .tab-scroll-content {
+        padding-left: 40%;
+    }
+
+    .scroll-tab-links ul li:before {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: #9399a4;
+        content: '';
+        border-radius: 50%;
+        left: -35px;
+        top: 5px;
+    }
+
+    .scroll-tab-links ul li:not(:last-child):after {
+        position: absolute;
+        width: 2px;
+        height: 25px;
+        background: #9399a4;
+        content: '';
+        border-radius: unset;
+        left: -29px;
+        top: 24px;
+    }
+
+    .scroll-tab-links ul li.active:before {
+        background: #fff;
+    }
+
+    .tab-scroll-content .main_content_under_tab_3 {
+        padding: 0;
+        max-width: 500px;
+    }
+
+    h2.scroll-tab-heading {
+        font-family: 'Space Grotesk';
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        color: rgb(255 255 255 / 70%);
+        margin-bottom: 15px;
+    }
+
+ /* end */

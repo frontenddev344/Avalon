@@ -1,180 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Detail</title>
-      <link rel="icon" type="image/x-icon" href="./assets/images/bl_fav.png">
-      <link rel="stylesheet" href="./assets/css/bootstrap.css">
-      <link rel="stylesheet" href="./assets/css/style.css">
-      <link rel="stylesheet" href="./assets/css/responsive.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-         crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <!-- dm sans font -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-      <!-- space grotesk font -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-   </head>
-   <body class="detail_page">
-      <!-- ********************** Header *************************** -->
-      <header>
-         <nav class="navbar navbar-expand-lg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/bl_fav.png">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- dm sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <!-- space grotesk font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+
+
+
+</head>
+
+<body class="detail_page">
+    <!-- ********************** Header *************************** -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-               <a class="navbar-brand" href="./index.html">
-               <img src="./assets/images/white_logo.png" alt="" class="img-fluid">
-               </a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                  aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Showcases</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
-                     </li>
-                     <li class="nav-item contact_button">
-                        <a class="nav-link" href="#"><span>Contact</span></a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-      </header>
-      <div class="detail_page_wrapper">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-12 px-0">
-                <div class="tab_left_parent">
-                    <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'tab1')">Erstgespräch</button>
-                        <button class="tablinks" onclick="openCity(event, 'tab2')">Analyse & Beratung</button>
-                        <button class="tablinks" onclick="openCity(event, 'tab3')" id="defaultOpen">Prototyping & Showcase</button>
-                        <button class="tablinks" onclick="openCity(event, 'tab4')">Auswertung & Vereinbarung</button>
-                        <button class="tablinks" onclick="openCity(event, 'tab5')">Umsetzung</button>
-                        <button class="tablinks" onclick="openCity(event, 'tab6')">Adoption - Übergabe</button>
-                        <button class="tablinks" onclick="openCity(event, 'tab7')">Nachbetreuung & Weiterentw</button>
-                     </div>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/images/white_logo.png" alt="" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Showcases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item contact_button">
+                            <a class="nav-link" href="#"><span>Contact</span></a>
+                        </li>
+                    </ul>
                 </div>
-              
-                  <div id="tab1" class="tabcontent">
-                         <h2 class="text-white">Content Not Available</h2>
-                  </div>
-                  <div id="tab2" class="tabcontent">
-                     <h2 class="text-white">Content Not Available</h2>
-                  </div>
-                  <div id="tab3" class="tabcontent">
-                    <div class="main_content_under_tab_3">
-                        <p class="h1para">Prototyping & Showcase</p>
-                        <h3>Willkommen auf dem Weg zur <span>maßgeschneiderten AI</span>- und <br>Software-Implementierung.
-                        </h3>
-                        <p> Bei Avalon Intelligence verstehen wir, dass jedes Unternehmen einzigartig ist – mit eigenen Herausforderungen,
-                           Zielen und Visionen. Deshalb beginnt unsere Zusammenarbeit immer mit einem persönlichen Erstgespräch. <span>Ziel dieses Gesprächs ist es, ein tiefes Verständnis für Ihre Bedürfnisse zu entwickeln</span>  und zu zeigen, 
-                           wie unsere maßgeschneiderten Lösungen Ihnen helfen können, Ihre Ziele zu erreichen.
-                        </p>
-                        <div class="content_for_ul_deatail">
-                           <h4>warum ein erstgesprach?</h4>
-                           <p>Ein Erstgespräch mit uns bietet Ihnen die Möglichkeit, Ihre   <b>aktuellen Herausforderungen und Zukunftsvisionen</b> zu teilen. Wir nutzen diese Gelegenheit, um:
-                           </p>
-                           <ul class="ul_detail_one">
-                              <li> Ein klares Verständnis Ihrer Ziele zu gewinnen</li>
-                              <li> Zu erkunden, wie unsere Dienstleistungen Ihnen konkret     helfen können.</li>
-                              <li> Den Grundstein für eine transparente und erfolgreiche Partnerschaft zu legen.</li>
-                           </ul>
-                        </div>
-                        <div class="content_for_ul_deatail c_f_u_detail2">
-                           <h4>Was Sie erwarten können</h4>
-                           <p>Das Erstgespräch ist der erste Schritt auf Ihrem Weg zu einer effektiven und effizienten Lösung. Hier ist, was wir zusammen tun werden:
-                           </p>
-                           <ul class="ul_detail_one">
-                              <li><b>1.  Erkundung Ihrer Geschäftswelt:</b> Erzählen Sie uns von Ihren Geschäftszweigen und Produkten, Ihren Kernwerten und Ihren Painpoints.</li>
-                              <li><b>2.  Bedürfnisanalyse:</b> Gemeinsam analysieren wir Ihre spezifischen Anforderungen und Herausforderungen.</li>
-                              <li><b>3.  Den Grundstein:</b> für eine transparente und erfolgreiche Partnerschaft zu legen.</li>
-                              <li><b>4.  Nächste Schritte: </b>Wir definieren gemeinsam die nächsten Schritte, um Ihre Ziele zu erreichen. Dies kann die Planung weiterer Treffen, die Durchführung spezifischer Analysen oder die Einleitung erster Projektschritte umfassen. </li>
-                           </ul>
-                        </div>
+            </div>
+        </nav>
+    </header>
+    <div class="detail_page_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div class="scroll-tab-links">
+                        <h2 class="scroll-tab-heading">User journey</h2>
+                        <ul>
+                            <li class="active"><a href="#scroll-tab-1">Erstgespräch</a></li>
+                            <li><a href="#scroll-tab-2">Analyse & Beratung</a></li>
+                            <li><a href="#scroll-tab-3">Prototyping & Showcase</a></li>
+                            <li><a href="#scroll-tab-4">Auswertung & Vereinbarung</a></li>
+                            <li><a href="#scroll-tab-5">Umsetzung</a></li>
+                            <li><a href="#scroll-tab-6">Adoption - Übergabe</a></li>
+                            <li><a href="#scroll-tab-7">Nachbetreuung & Weiterentw</a></li>
+                        </ul>
                     </div>
-                    
-                     <div class="das_team">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="das_team_inner">
-                                    <h2>Das Team</h2>
-                                    <p>Mit unserer Expertise in der AI- und Software<br>-Implementierung stehen wir Ihnen zur Seite, um Ihre<br> Fragen
-                                         zu beantworten und die Grundlage für eine<br> erfolgreiche Zusammenarbeit zu schaffen.</p>
-                                        <div class="das_team_btn">
-                                            <a href="">Kennenlernen</a>
-                                        </div>
-                                </div>
-                                                                 
+
+                    <div class="tab-scroll-content">
+                        <div class="scroll-content-box tabcontent" id="scroll-tab-1">
+                            <div class="main_content_under_tab_3">
+                                <p class="h1para">Erstgespräch</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                    Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                    lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                    aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                                </p>
                             </div>
                         </div>
-                      </div>
-                      <div class="main_content_under_tab_3 mcut_2">
-                        <p class="h1para">Prototyping & Showcase</p>
-                        <h3>Willkommen auf dem Weg zur <span>maßgeschneiderten AI</span>- und <br>Software-Implementierung.
-                        </h3>
-                        <p> Bei Avalon Intelligence verstehen wir, dass jedes Unternehmen einzigartig ist – mit eigenen Herausforderungen,
-                           Zielen und Visionen. Deshalb beginnt unsere Zusammenarbeit immer mit einem persönlichen Erstgespräch. <span>Ziel dieses Gesprächs ist es, ein tiefes Verständnis für Ihre Bedürfnisse zu entwickeln</span>  und zu zeigen, 
-                           wie unsere maßgeschneiderten Lösungen Ihnen helfen können, Ihre Ziele zu erreichen.
-                        </p>
-                        <div class="content_for_ul_deatail">
-                           <h4>warum ein erstgesprach?</h4>
-                           <p>Ein Erstgespräch mit uns bietet Ihnen die Möglichkeit, Ihre <b>aktuellen Herausforderungen und Zukunftsvisionen</b> zu teilen. Wir nutzen diese Gelegenheit, um:
-                           </p>
-                           <ul class="ul_detail_one">
-                              <li> Ein klares Verständnis Ihrer Ziele zu gewinnen</li>
-                              <li> Zu erkunden, wie unsere Dienstleistungen Ihnen konkret     helfen können.</li>
-                              <li> Den Grundstein für eine transparente und erfolgreiche Partnerschaft zu legen.</li>
-                           </ul>
+                        <div class="scroll-content-box tabcontent" id="scroll-tab-2">
+                            <div class="main_content_under_tab_3">
+                                <p class="h1para">Analyse & Beratung</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                    Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                    lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                    aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                                </p>
+                            </div>
                         </div>
-                        <div class="content_for_ul_deatail c_f_u_detail2">
-                           <h4>Was Sie erwarten können</h4>
-                           <p>Das Erstgespräch ist der erste Schritt auf Ihrem Weg zu einer effektiven und effizienten Lösung. Hier ist, was wir zusammen tun werden:
-                           </p>
-                           <ul class="ul_detail_one">
-                              <li><b>1.  Erkundung Ihrer Geschäftswelt:</b> Erzählen Sie uns von Ihren Geschäftszweigen und Produkten, Ihren Kernwerten und Ihren Painpoints.</li>
-                              <li><b>2.  Bedürfnisanalyse:</b> Gemeinsam analysieren wir Ihre spezifischen Anforderungen und Herausforderungen.</li>
-                              <li><b>3.  Den Grundstein :</b> für eine transparente und erfolgreiche Partnerschaft zu legen.</li>
-                              <li><b>4.  Nächste Schritte:</b> Wir definieren gemeinsam die nächsten Schritte, um Ihre Ziele zu erreichen. Dies kann die Planung weiterer Treffen, die Durchführung spezifischer Analysen oder die Einleitung erster Projektschritte umfassen. </li>
-                           </ul>
+                        <div class="scroll-content-box tabcontent" id="scroll-tab-3">
+                            <div class="main_content_under_tab_3">
+                                <p class="h1para">Prototyping &amp; Showcase</p>
+                                <h3>Willkommen auf dem Weg zur <span>maßgeschneiderten AI</span>- und
+                                    <br>Software-Implementierung.
+                                </h3>
+                                <p> Bei Avalon Intelligence verstehen wir, dass jedes Unternehmen einzigartig ist – mit
+                                    eigenen Herausforderungen,
+                                    Zielen und Visionen. Deshalb beginnt unsere Zusammenarbeit immer mit einem
+                                    persönlichen Erstgespräch. <span>Ziel dieses Gesprächs ist es, ein tiefes
+                                        Verständnis für Ihre Bedürfnisse zu entwickeln</span> und zu zeigen,
+                                    wie unsere maßgeschneiderten Lösungen Ihnen helfen können, Ihre Ziele zu erreichen.
+                                </p>
+                                <div class="content_for_ul_deatail">
+                                    <h4>warum ein erstgesprach?</h4>
+                                    <p>Ein Erstgespräch mit uns bietet Ihnen die Möglichkeit, Ihre <b>aktuellen
+                                            Herausforderungen und Zukunftsvisionen</b> zu teilen. Wir nutzen diese
+                                        Gelegenheit, um:
+                                    </p>
+                                    <ul class="ul_detail_one">
+                                        <li> Ein klares Verständnis Ihrer Ziele zu gewinnen</li>
+                                        <li> Zu erkunden, wie unsere Dienstleistungen Ihnen konkret helfen können.</li>
+                                        <li> Den Grundstein für eine transparente und erfolgreiche Partnerschaft zu
+                                            legen.</li>
+                                    </ul>
+                                </div>
+                                <div class="content_for_ul_deatail c_f_u_detail2">
+                                    <h4>Was Sie erwarten können</h4>
+                                    <p>Das Erstgespräch ist der erste Schritt auf Ihrem Weg zu einer effektiven und
+                                        effizienten Lösung. Hier ist, was wir zusammen tun werden:
+                                    </p>
+                                    <ul class="ul_detail_one">
+                                        <li><b>1. Erkundung Ihrer Geschäftswelt:</b> Erzählen Sie uns von Ihren
+                                            Geschäftszweigen und Produkten, Ihren Kernwerten und Ihren Painpoints.</li>
+                                        <li><b>2. Bedürfnisanalyse:</b> Gemeinsam analysieren wir Ihre spezifischen
+                                            Anforderungen und Herausforderungen.</li>
+                                        <li><b>3. Den Grundstein:</b> für eine transparente und erfolgreiche
+                                            Partnerschaft zu legen.</li>
+                                        <li><b>4. Nächste Schritte: </b>Wir definieren gemeinsam die nächsten Schritte,
+                                            um Ihre Ziele zu erreichen. Dies kann die Planung weiterer Treffen, die
+                                            Durchführung spezifischer Analysen oder die Einleitung erster
+                                            Projektschritte umfassen. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="das_team">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="das_team_inner">
+                                            <h2>Das Team</h2>
+                                            <p>Mit unserer Expertise in der AI- und Software<br>-Implementierung stehen
+                                                wir Ihnen zur Seite, um Ihre<br> Fragen
+                                                zu beantworten und die Grundlage für eine<br> erfolgreiche
+                                                Zusammenarbeit zu schaffen.</p>
+                                            <div class="das_team_btn">
+                                                <a href="">Kennenlernen</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_content_under_tab_3 mcut_2">
+                                <p class="h1para">Prototyping &amp; Showcase</p>
+                                <h3>Willkommen auf dem Weg zur <span>maßgeschneiderten AI</span>- und
+                                    <br>Software-Implementierung.
+                                </h3>
+                                <p> Bei Avalon Intelligence verstehen wir, dass jedes Unternehmen einzigartig ist – mit
+                                    eigenen Herausforderungen,
+                                    Zielen und Visionen. Deshalb beginnt unsere Zusammenarbeit immer mit einem
+                                    persönlichen Erstgespräch. <span>Ziel dieses Gesprächs ist es, ein tiefes
+                                        Verständnis für Ihre Bedürfnisse zu entwickeln</span> und zu zeigen,
+                                    wie unsere maßgeschneiderten Lösungen Ihnen helfen können, Ihre Ziele zu erreichen.
+                                </p>
+                                <div class="content_for_ul_deatail">
+                                    <h4>warum ein erstgesprach?</h4>
+                                    <p>Ein Erstgespräch mit uns bietet Ihnen die Möglichkeit, Ihre <b>aktuellen
+                                            Herausforderungen und Zukunftsvisionen</b> zu teilen. Wir nutzen diese
+                                        Gelegenheit, um:
+                                    </p>
+                                    <ul class="ul_detail_one">
+                                        <li> Ein klares Verständnis Ihrer Ziele zu gewinnen</li>
+                                        <li> Zu erkunden, wie unsere Dienstleistungen Ihnen konkret helfen können.</li>
+                                        <li> Den Grundstein für eine transparente und erfolgreiche Partnerschaft zu
+                                            legen.</li>
+                                    </ul>
+                                </div>
+                                <div class="content_for_ul_deatail c_f_u_detail2">
+                                    <h4>Was Sie erwarten können</h4>
+                                    <p>Das Erstgespräch ist der erste Schritt auf Ihrem Weg zu einer effektiven und
+                                        effizienten Lösung. Hier ist, was wir zusammen tun werden:
+                                    </p>
+                                    <ul class="ul_detail_one">
+                                        <li><b>1. Erkundung Ihrer Geschäftswelt:</b> Erzählen Sie uns von Ihren
+                                            Geschäftszweigen und Produkten, Ihren Kernwerten und Ihren Painpoints.</li>
+                                        <li><b>2. Bedürfnisanalyse:</b> Gemeinsam analysieren wir Ihre spezifischen
+                                            Anforderungen und Herausforderungen.</li>
+                                        <li><b>3. Den Grundstein :</b> für eine transparente und erfolgreiche
+                                            Partnerschaft zu legen.</li>
+                                        <li><b>4. Nächste Schritte:</b> Wir definieren gemeinsam die nächsten Schritte,
+                                            um Ihre Ziele zu erreichen. Dies kann die Planung weiterer Treffen, die
+                                            Durchführung spezifischer Analysen oder die Einleitung erster
+                                            Projektschritte umfassen. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll-content-box tabcontent" id="scroll-tab-4">
+                            <div class="main_content_under_tab_3">
+                                <p class="h1para">Auswertung & Vereinbarung</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                    Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                    lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                    aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="scroll-content-box tabcontent" id="scroll-tab-5">
+                            <div class="main_content_under_tab_3">
+                                <p class="h1para">Umsetzung</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                    Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                    lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                    aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="scroll-content-box tabcontent" id="scroll-tab-6">
+                            <div class="main_content_under_tab_3">
+                                <p class="h1para">Adoption - Übergabe</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                    Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                    lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                    aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="scroll-content-box tabcontent" id="scroll-tab-7">
+                            <div class="main_content_under_tab_3">
+                                <p class="h1para">Nachbetreuung & Weiterentw</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                    Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                    lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                    aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                      
-                  </div>
-                  <div id="tab4" class="tabcontent">
-                     <h2 class="text-white">Content Not Available</h2>
-                  </div>
-                  <div id="tab5" class="tabcontent">
-                     <h2 class="text-white">Content Not Available</h2>
-                  </div>
-                  <div id="tab6" class="tabcontent">
-                     <h2 class="text-white">Content Not Available</h2>
-                  </div>
-                  <div id="tab7" class="tabcontent">
-                     <h2 class="text-white">Content Not Available</h2>
-                  </div>
-               
-               </div>
+
+                </div>
             </div>
-         </div>
-      </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <script src="./assets/js/bootstrap.bundle.js"></script>
-      <script src="./assets/js/script.js"></script>
-   </body>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script>
+        var sections = $('.scroll-content-box'),
+            nav = $('.scroll-tab-links'),
+            nav_height = $('header').outerHeight();
+
+        $(window).on('scroll', function () {
+            var cur_pos = $(this).scrollTop();
+
+            sections.each(function () {
+                var top = $(this).offset().top - nav_height - 100,
+                    bottom = top + $(this).outerHeight();
+
+                if (cur_pos >= top && cur_pos <= bottom) {
+                    nav.find('li').removeClass('active');
+                    sections.removeClass('active');
+
+                    var currentId = $(this).attr('id');
+                    nav.find('a[href="#' + currentId + '"]').parent().addClass('active');
+                }
+            });
+
+            // Check if the top of the page is reached
+            if (cur_pos == 0) {
+                nav.find('li').removeClass('active');
+                nav.find('li:first-child').addClass('active');
+            }
+        });
+
+        $('.scroll-tab-links a').on('click', function () {
+            var $el = $(this),
+                id = $el.attr('href');
+
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - nav_height - 100
+            }, 500, "linear");
+
+            nav.find('li').removeClass('active');
+            $el.parent().addClass('active');
+
+            return false;
+        });
+    </script>
+
+
+
+</body>
+
 </html>
