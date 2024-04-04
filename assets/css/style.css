@@ -420,6 +420,14 @@ ul.bottom_footer_links li a {
 .nav-item.contact_button a span:hover {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
 }
+.mhcp-vertical-line:After {
+    content: "";
+    position: absolute;
+    top: calc(-17% - 8px);
+    height: 17%;
+    width: 2px;
+    background: #fff;
+}
 .wir_bringen_inner:before {
     position: absolute;
     content: '';
