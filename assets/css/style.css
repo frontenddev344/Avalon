@@ -806,7 +806,7 @@ ul.bottom_footer_links li a {
   /************************************************************************************/
   
   .timeline-panel {
-    width: 35%;
+    width: 85%;
     height: 500px;
     float: right;
     padding: 50px;
@@ -898,8 +898,10 @@ ul.bottom_footer_links li a {
   /************************************************************************************/
   
   .timeline-panel-body {
+    display: flex;
     opacity: 1;
-  }
+    justify-content: space-between;
+}
   
   /************************************************************************************/
   
