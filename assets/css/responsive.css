@@ -157,8 +157,7 @@
         position: unset;
     }
     .wir_bringen_inner {
-        text-align: center;
-        padding-left: 0;
+        padding-left: 70px;
     }
     .wir_bringen_inner:after {
         height: 100px;
