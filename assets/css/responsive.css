@@ -354,6 +354,10 @@
     .detail_page_wrapper.desk{
         display: none;
     }
+    .tabcontent .h1para {
+        font-size: 36px;
+        line-height: 45px;
+    }
 }
 
 @media screen and (max-width:575px) {

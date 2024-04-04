@@ -1443,6 +1443,11 @@ video.fullscreen {
     background: #0c1934;
     z-index: 0;
 }
+.detail_page_wrapper.mob .scroll-content-box {
+    width: 100%;
+    min-height: auto;
+    padding-bottom: 30px;
+}
 .detail_page_wrapper.mob{
     display: none;
 }
