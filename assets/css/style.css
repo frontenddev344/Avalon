@@ -420,7 +420,7 @@ ul.bottom_footer_links li a {
 .nav-item.contact_button a span:hover {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
 }
- 
+/*  
 .wir_bringen_inner:before {
     position: absolute;
     content: '';
@@ -648,7 +648,7 @@ ul.bottom_footer_links li a {
     justify-content: center;
     font-size: 27px;
     font-weight: 700;
-} 
+}  */
 
 
 
