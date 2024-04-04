@@ -348,6 +348,12 @@
     .mhcp-vertical-line {
         left: 65px;
     }
+    .detail_page_wrapper.mob{
+        display: block;
+    }
+    .detail_page_wrapper.desk{
+        display: none;
+    }
 }
 
 @media screen and (max-width:575px) {

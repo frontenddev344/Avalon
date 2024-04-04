@@ -65,7 +65,7 @@
             </div>
         </nav>
     </header>
-    <div class="detail_page_wrapper">
+    <div class="detail_page_wrapper desk">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 px-0">
@@ -256,11 +256,79 @@
             </div>
         </div>
     </div>
+    <div class="detail_page_wrapper mob">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-12 px-0">
+                  <div class="scroll-tab-links">
+                      <h2 class="scroll-tab-heading">User journey
+                          <i class="fa-solid fa-angle-down"></i>
+                      </h2>
+                      <ul>
+                          <li class="active"><a href="#scroll-tab-1">Erstgespräch</a></li>
+                          <li><a href="#scroll-tab-mob-2">Analyse & Beratung</a></li>
+                          <li><a href="#scroll-tab-mob-3">Prototyping & Showcase</a></li>
+                          <li><a href="#scroll-tab-mob-4">Auswertung & Vereinbarung</a></li>
+                          <li><a href="#scroll-tab-mob-5">Umsetzung</a></li>
+                          <li><a href="#scroll-tab-mob-6">Adoption - Übergabe</a></li>
+                          <li><a href="#scroll-tab-mob-7">Nachbetreuung & Weiterentw</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="tab-scroll-content">
+                      <div id="scroll-tab-mob-1" class="scroll-tab-content tabcontent">
+                          <div class="main_content_under_tab_3">
+                              <p class="h1para">Erstgespräch</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                  Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                  lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                  aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                              </p>
+                          </div>
+                      </div>
+                      <div id="scroll-tab-mob-2" class="scroll-tab-content tabcontent">
+                          Content for Analyse & Beratung
+                      </div>
+                      <div id="scroll-tab-mob-3" class="scroll-tab-content tabcontent">
+                          <div class="main_content_under_tab_3">
+                              <p class="h1para">Erstgespräch</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                  Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                  lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                  aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                              </p>
+                          </div>
+                      </div>
+                      <div id="scroll-tab-mob-4" class="scroll-tab-content tabcontent">
+                          Content for Auswertung & Vereinbarung
+                      </div>
+                      <div id="scroll-tab-mob-5" class="scroll-tab-content tabcontent">
+                          <div class="main_content_under_tab_3">
+                              <p class="h1para">Erstgespräch</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus tellus.
+                                  Vestibulum tellus ante, convallis non tincidunt a, congue at massa. Phasellus
+                                  lacinia metus justo, id tempor risus congue in. Ut id magna velit. Duis metus arcu,
+                                  aliquam non lectus a, ultricies tempus turpis. In porttitor dolor et erat porttitor.
+                              </p>
+                          </div>
+                      </div>
+                      <div id="scroll-tab-mob-6" class="scroll-tab-content tabcontent">
+                          Content for Adoption - Übergabe
+                      </div>
+                      <div id="scroll-tab-mob-7" class="scroll-tab-content tabcontent">
+                          Content for Nachbetreuung & Weiterentw
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.js"></script>
     <script src="./assets/js/script.js"></script>
     <script>
-        var sections = $('.scroll-content-box'),
+        var sections = $('.desk .scroll-content-box'),
             nav = $('.scroll-tab-links'),
             nav_height = $('header').outerHeight();
 
@@ -302,7 +370,44 @@
         });
     </script>
 
+  <!-- mobile script -->
+  <script>
+   document.addEventListener("DOMContentLoaded", function () {
+       var headings = document.querySelectorAll('.mob .scroll-tab-heading');
+       var links = document.querySelectorAll('.mob .tab-link');
 
+       headings.forEach(function (heading) {
+           heading.addEventListener('click', function () {
+               var content = this.nextElementSibling;
+               toggleContent(content);
+           });
+       });
+
+       links.forEach(function (link) {
+           link.addEventListener('click', function (event) {
+               event.preventDefault();
+               var tabId = this.getAttribute('href');
+               var content = document.querySelector(tabId);
+               toggleContent(content);
+               // Scroll to the tab content
+               content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+           });
+       });
+
+       function toggleContent(content) {
+           content.classList.toggle('open');
+       }
+   });
+
+
+   jQuery(document).ready(function () {
+       jQuery('.mob .scroll-tab-links ul li a').click(function () {
+
+           jQuery('.mob .scroll-tab-links ul').removeClass('open');
+
+       });
+   }); 
+</script>
 
 </body>
 
