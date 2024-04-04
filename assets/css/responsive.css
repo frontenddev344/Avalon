@@ -43,7 +43,12 @@
         left: 18px;
     }
 }
+@media screen and (max-width:1320px){
+    .wir_bringen_inner:before {
+       position: unset;
+    }
 
+}
 @media screen and (max-width:1199px) {
     .banner_content {
         padding: 220px 0;
