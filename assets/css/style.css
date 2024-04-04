@@ -423,21 +423,22 @@ ul.bottom_footer_links li a {
 .wir_bringen_inner:before {
     position: absolute;
     content: '';
-    width: 750px;
+    width: 100%;
     height: 2px;
     background: #fff;
     top: 240px;
-    left: -180px;
+    left: 109px;
+    max-width: 530px;
 }
-.wir_bringen_inner:after {
-    position: absolute;
-    content: '';
-    width: 2px;
-    height: 445px;
-    background: #fff;
-    top: 240px;
-    left: -180px;
+
+ replace krdo
+.wir_brigen_ai2main {
+    padding: 180px 0;
+    position: relative;
+    max-width: 1320px;
+    margin: auto;
 }
+
 /*  
 
 .left_wir_2.one_line {
