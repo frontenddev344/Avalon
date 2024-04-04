@@ -456,8 +456,10 @@
         var sections = $('.desk .scroll-content-box'),
             nav = $('.scroll-tab-links'),
             nav_height = $('header').outerHeight();
+            click_scroll = false;
 
         $(window).on('scroll', function () {
+         if(!click_scroll){
             var cur_pos = $(this).scrollTop();
 
             sections.each(function () {
@@ -478,15 +480,26 @@
                 nav.find('li').removeClass('active');
                 nav.find('li:first-child').addClass('active');
             }
+         }
         });
 
         $('.scroll-tab-links a').on('click', function () {
             var $el = $(this),
                 id = $el.attr('href');
 
+            click_scroll = true;
             $('html, body').animate({
                 scrollTop: $(id).offset().top - nav_height - 100
-            }, 500, "linear");
+            }, {
+                duration: 500,
+                easing: "linear",
+                complete: function() {
+                    setTimeout(()=>{
+                        click_scroll = false;
+                        $el.addClass('active');
+                    }, 1000)
+                }
+            });
 
             nav.find('li').removeClass('active');
             $el.parent().addClass('active');
