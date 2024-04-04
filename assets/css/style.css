@@ -1187,7 +1187,7 @@ ul.ul_detail_one li b {
     position: relative;
 }
 .detail_page_wrapper::before {
-    position: absolute;
+    position: fixed;
     content: '';
     height: 801px;
     width: 200px;

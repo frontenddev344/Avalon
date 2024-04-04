@@ -242,6 +242,9 @@
         font-size: 55px;
         line-height: 60px;
     }
+    .mhcp-vertical-line {
+        left: 75px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -305,6 +308,9 @@
         height: 430px;
         top: -390px;
     }
+    .mhcp-vertical-line {
+        left: 65px;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -365,6 +371,9 @@
         padding-left: 30px;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .mhcp-vertical-line {
+        left: 40px;
     }
 }
 @media screen and (max-width:503px)
