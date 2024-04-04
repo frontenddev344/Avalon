@@ -420,7 +420,6 @@ ul.bottom_footer_links li a {
 .nav-item.contact_button a span:hover {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
 }
-/*  
 .wir_bringen_inner:before {
     position: absolute;
     content: '';
@@ -428,7 +427,7 @@ ul.bottom_footer_links li a {
     height: 2px;
     background: #fff;
     top: 240px;
-    left: 30px;
+    left: -180px;
 }
 .wir_bringen_inner:after {
     position: absolute;
@@ -437,8 +436,10 @@ ul.bottom_footer_links li a {
     height: 230px;
     background: #fff;
     top: 240px;
-    left: 30px;
+    left: -180px;
 }
+/*  
+
 .left_wir_2.one_line {
     position: relative;
 }
@@ -657,7 +658,7 @@ ul.bottom_footer_links li a {
     margin: 0 auto;
     height: 90%;
     position: absolute;
-    top: 140px;
+    top: 215px;
     left: 120px;
     right: auto;
     background: #42484f;;
@@ -676,26 +677,28 @@ ul.bottom_footer_links li a {
   background-color: #fff;
   transform: scale(1.1);
 }
-.mhcp-circle.c1 {
-    top: 3%;
-}
+
+    .mhcp-circle.c1 {
+        top: 0%;
+    }
+
 .mhcp-circle.c2 {
-    top: 17%;
+    top: 14%;
 }
 .mhcp-circle.c3 {
-    top: 33%;
+    top: 30%;
 }
 .mhcp-circle.c4 {
-    top: 48%;
+    top: 45%;
 }
 .mhcp-circle.c5 {
-    top: 64%;
+    top: 61%;
 }
 .mhcp-circle.c6 {
-    top: 79%;
+    top: 77%;
 }
 .mhcp-circle.c7 {
-    top: 95%;
+    top: 93%;
 
 }
 .mhcp-rectangle .mhcp-circle {
