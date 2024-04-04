@@ -757,7 +757,7 @@ ul.bottom_footer_links li a {
     list-style: none;
     padding-top: 30vh;
     position: relative;
-    z-index: -3;
+    z-index: 0;
   }
   
   .timeline:before {
@@ -768,7 +768,7 @@ ul.bottom_footer_links li a {
     width: 1.5px;
     background-color: lightblue;
     border: 1.25px solid lightblue;
-    left: 50%;
+    left: 100px;
     height: 100%;
     z-index: -5;
   }
@@ -780,7 +780,7 @@ ul.bottom_footer_links li a {
     content: " ";
     width: 1.5px;
     background-color: #0E3B85;
-    left: 50%;
+    left: 100px;
     border: 1.25px solid #0E3B85;
     height: 50vh;
     z-index: -5;
@@ -808,9 +808,9 @@ ul.bottom_footer_links li a {
   .timeline-panel {
     width: 35%;
     height: 500px;
-    float: left;
+    float: right;
     padding: 50px;
-    position: relative;
+    position: unset;
     text-align: justify;
     color:#000000;
   }
@@ -988,7 +988,7 @@ ul.bottom_footer_links li a {
     text-align: center;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 100px;
     margin-left: -60px;
     background-color: white;
     border: 1px solid lightblue;
@@ -1843,7 +1843,10 @@ video.fullscreen {
     opacity: 0;
 }
 
-
+.timeline-inverted
+{
+    display: none;
+}
 
 
 
