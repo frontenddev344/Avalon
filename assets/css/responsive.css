@@ -38,6 +38,10 @@
     .tab {
         padding-left: 60px;
     }
+    .wir_bringen_inner:before {
+        top: 241px;
+        left: 18px;
+    }
 }
 
 @media screen and (max-width:1199px) {
