@@ -564,7 +564,7 @@
       <script src="./assets/js/script.js"></script>
 
 
-      <!-- <script>
+       <script>
           window.onscroll = () => {
 	let scrollTop = $(window).scrollTop();
 	//************************* Line move ****************************//
@@ -711,48 +711,8 @@
 	  $('.mhcp-rectangle .mhcp-circle').addClass('active');
 	}
 }
-      </script> -->
-      <script>
-window.onscroll = () => {
-    let scrollTop = $(window).scrollTop();
-    var topStartAnimation = $('.wir_brigen_ai2main').offset().top - $(window).height() / 2;
-    let scrollTopFixed = scrollTop - topStartAnimation;
-    var totalHeight = $('.wir_brigen_ai2main').height();
-    var scrollBlackLine = scrollTopFixed / totalHeight * 200;
-
-    var firstCricle = 4;
-    var SecondCricle = 33;
-    var ThirdCricle = 56;
-    var FourthCricle = 62;
-    var fiveCricle = 69;
-    var sixCricle = 73;
-    var sevenCricle = 80;
-    var maxLine = 80;
-
-    console.log('scrollBlackLine:', scrollBlackLine);
-
-    // Apply classes based on scroll position
-    if (scrollBlackLine <= maxLine) {
-        console.log('Entering if condition');
-
-        // Add or remove classes based on conditions
-        $('.mhcp-rectangle .mhcp-circle.c1').toggleClass('active', scrollBlackLine > firstCricle);
-        $('.mhcp-rectangle .mhcp-circle.c2').toggleClass('active', scrollBlackLine > SecondCricle);
-        $('.mhcp-rectangle .mhcp-circle.c3').toggleClass('active', scrollBlackLine > ThirdCricle);
-        $('.mhcp-rectangle .mhcp-circle.c4').toggleClass('active', scrollBlackLine > FourthCricle);
-        $('.mhcp-rectangle .mhcp-circle.c5').toggleClass('active', scrollBlackLine > fiveCricle);
-        $('.mhcp-rectangle .mhcp-circle.c6').toggleClass('active', scrollBlackLine > sixCricle);
-        $('.mhcp-rectangle .mhcp-circle.c7').toggleClass('active', scrollBlackLine > sevenCricle);
-
-        // Update height of .mhcp-rectangle
-        $('.mhcp-rectangle').css('height', scrollTopFixed + 'px');
-    } else {
-        // If scrollBlackLine exceeds maxLine, reset classes and height
-        $('.mhcp-rectangle').css('height', '100%');
-        $('.mhcp-rectangle .mhcp-circle').addClass('active');
-    }
-}
-
-      </script>
+      </script> 
+   
+  
    </body>
 </html>
