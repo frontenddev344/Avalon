@@ -177,13 +177,13 @@ li.nav-item {
     font-weight: bold;
 	margin-bottom: 20px;
 }
-.entdecken_section
+/* .entdecken_section
 {
 	background-image: url(../images/entdeckan1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 .entdecken_content {
     padding-left: 180px;
 }
@@ -571,7 +571,7 @@ ul.bottom_footer_links li a {
 .round_btns .button_round_2 {
     background: #2A2C3D;
     border-radius: 18px;
-    color: #F5F2E8;
+    color: #b6b5b5;
     padding: 6px 26px;
     text-decoration: none;
     font-size: 14px;
@@ -1007,7 +1007,7 @@ ul.ul_detail_one li b {
     right: 0;
     background-image: url(../images/detail_side_img.png);
     background-repeat: no-repeat;
-    z-index: 1;
+    z-index: -1;
     top: 75px;
 }
 .content_technik a {
