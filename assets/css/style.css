@@ -657,7 +657,7 @@ ul.bottom_footer_links li a {
 .blog_img_bottom {
     text-align: center;
     position: fixed;
-    bottom: 0;
+    bottom: -60px;
     margin: 0 auto;
     left: 0;
     right: 0;
