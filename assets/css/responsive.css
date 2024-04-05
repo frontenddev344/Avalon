@@ -309,6 +309,10 @@
     /* .banner_inner_content {
         text-align: center;
     } */
+    .tab-scroll-content .main_content_under_tab_3{
+        width: 100%;
+        max-width: 100%;
+    }
     .wir_bringen_inner {
         padding-top: 60px;
     }
