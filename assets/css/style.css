@@ -397,6 +397,7 @@ ul.bottom_footer_links li a {
     border-width: 0px;
     font-size: 16px;
     font-weight: 500;
+    transition: all 0.9s;
 }
 .entdecken_content a:hover {
     background: #fff;
@@ -1312,4 +1313,9 @@ video.fullscreen {
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 -webkit-user-modify: read-write !important;
+}
+
+
+.nav-item.contact_button a:hover span {
+    background: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%)!important;
 }
