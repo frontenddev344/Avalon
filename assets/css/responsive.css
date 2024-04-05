@@ -451,7 +451,7 @@
         font-size: 16px;
     }
     .search_div i {
-        right: 32%;
+        right: 5%;
     }
     li.nav-item {
         text-align: center;
@@ -471,6 +471,11 @@
     }
     .das_team_inner p br {
         display: none;
+    }
+    .search_div {
+        width: fit-content;
+        margin: 0px auto;
+        margin-bottom: 40px;
     }
 }
 @media screen and (max-width:503px)
