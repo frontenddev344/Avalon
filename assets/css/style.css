@@ -1271,3 +1271,9 @@ video.fullscreen {
     background-position:center!important;
 
 }
+.image_technik img {
+    border-radius: 5px 5px 0px 0;
+}
+.content_technik{
+    border-radius: 0px 0px 5px 5px;
+}
