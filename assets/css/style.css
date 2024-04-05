@@ -58,7 +58,7 @@ header {
     width: 100%;
     padding: 10px 20px;
     background: #ffffff0d;
-  
+    -webkit-backdrop-filter: blur(50px);
 }
 li.nav-item {
     margin-left: 20px;
@@ -1026,8 +1026,9 @@ ul.ul_detail_one li b {
     border: 1px solid #fff;
 }
 .content_technik:hover {
-    background: #2a2a3c;
+    background: #383348;
 }
+
 .tabcontent h2 {
     font-size: 36px;
    
