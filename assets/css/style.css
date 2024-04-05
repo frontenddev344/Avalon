@@ -420,7 +420,7 @@ ul.bottom_footer_links li a {
     width: 100%;
     font-size: 16px;
     text-transform: capitalize;
-    transition: al .4s;
+    transition: all .4s linear;
 }
 .nav-item.contact_button a span:hover {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
@@ -657,8 +657,25 @@ ul.bottom_footer_links li a {
     padding: 60px 20px;
     background: linear-gradient(267deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
     padding-left: 50px;
-    transition: all 0.4s;
+    transition: all 0.4s linear;
+    position: relative;
+    isolation: isolate;
 }
+
+.content_technik::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #383348;
+    z-index: -1;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+
+.content_technik:hover::before {
+    opacity: 1;
+}
+
 
 .blog_img_bottom {
     text-align: center;
@@ -1025,9 +1042,9 @@ ul.ul_detail_one li b {
     color: #000;
     border: 1px solid #fff;
 }
-.content_technik:hover {
+/* .content_technik:hover {
     background: #383348;
-}
+} */
 
 .tabcontent h2 {
     font-size: 36px;
