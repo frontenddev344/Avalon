@@ -252,7 +252,7 @@
         padding-left: 40px;
     }
     .search_div i {
-        right: 240px;
+        right: 30px;
     }
     .tabcontent .h1para {
         font-size: 55px;
@@ -319,6 +319,9 @@ li.nav-item a {
 ul.navbar-nav {
     height: 100vh;
 }
+.search_card {
+    max-width: 280px;
+}
 }
 
 @media screen and (max-width:767px) {
@@ -359,7 +362,7 @@ ul.navbar-nav {
         padding-top: 150px;
     }
     .search_div i {
-        right: 150px;
+        right: 30px;
     }
     .das_team {
         height: 360px;
