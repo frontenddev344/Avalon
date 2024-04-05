@@ -1199,12 +1199,13 @@ ul.ul_detail_one li b {
 .detail_page_wrapper::before {
     position: fixed;
     content: '';
-    height: 801px;
+    height: 802px;
     width: 200px;
     right: 0;
     background-image: url(../images/detail_side_img.png);
     background-repeat: no-repeat;
     z-index: 1;
+    top: 75px;
 }
 .content_technik a {
     text-decoration: none;
@@ -1339,8 +1340,8 @@ video.fullscreen {
         width: 100%;
         min-height: 450px;
         padding-bottom: 60px;
+        padding-top: 150px;
     }
-
     .detail_page_wrapper {
         padding-left: 10%;
     }
@@ -1388,9 +1389,8 @@ video.fullscreen {
         color: rgb(255 255 255 / 70%);
         margin-bottom: 15px;
     }
-
     .tab-scroll-content > .scroll-content-box:last-child {
-        min-height: calc(100vh - 160px);
+        min-height: calc(100vh - 15px);
     }
  /* end */
 

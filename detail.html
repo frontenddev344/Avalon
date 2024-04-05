@@ -463,7 +463,7 @@
             var cur_pos = $(this).scrollTop();
 
             sections.each(function () {
-                var top = $(this).offset().top - nav_height - 100,
+                var top = $(this).offset().top - nav_height + 50,
                     bottom = top + $(this).outerHeight();
 
                 if (cur_pos >= top && cur_pos <= bottom) {
@@ -482,14 +482,14 @@
             }
          }
         });
-
+        
         $('.scroll-tab-links a').on('click', function () {
             var $el = $(this),
                 id = $el.attr('href');
 
             click_scroll = true;
             $('html, body').animate({
-                scrollTop: $(id).offset().top - nav_height - 100
+                scrollTop: $(id).offset().top - nav_height + 50
             }, {
                 duration: 500,
                 easing: "linear",
@@ -504,9 +504,14 @@
             nav.find('li').removeClass('active');
             $el.parent().addClass('active');
 
-            return false;
+            // return false;
         });
+
+        var url = document.location.href;
+        if( url.search("#scroll-tab") < 0 ) document.location = url+"#scroll-tab-3";
+        // $('a[href="#scroll-tab-3"]').trigger('click');
     </script>
+
 
   <!-- mobile script -->
   <script>
