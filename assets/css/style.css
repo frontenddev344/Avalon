@@ -1031,8 +1031,11 @@ ul.ul_detail_one li b {
 }
 .right_wir_2 b a {
     color: #fff;
+    text-decoration: unset;
 }
-
+.right_wir_2 b a:hover {
+    text-decoration: underline;
+}
 
 
 .navbar-toggler-icon {

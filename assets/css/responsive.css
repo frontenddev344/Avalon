@@ -308,7 +308,8 @@
     justify-content: space-between;
     width: 100%;
     background: #18253E;
-    padding: 10px;;
+    padding: 10px;
+    backdrop-filter: blur(50px);
 }
 .navbar-collapse.collapse.show .logoplusicon{
     background:red;
@@ -318,6 +319,7 @@ li.nav-item a {
 }
 ul.navbar-nav {
     height: 100vh;
+    padding-top: 25%;
 }
 .search_card {
     max-width: 280px;
