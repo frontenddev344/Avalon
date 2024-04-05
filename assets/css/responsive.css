@@ -205,10 +205,10 @@
         display: inline-block;
     }
     li.nav-item {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     li.nav-item:first-child {
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .right_wir_2 {
         padding-left: 90px;
@@ -312,6 +312,9 @@
 }
 .navbar-collapse.collapse.show .logoplusicon{
     background:red;
+}
+li.nav-item a {
+    font-size: 24px;
 }
 }
 
