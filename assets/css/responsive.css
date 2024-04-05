@@ -149,6 +149,7 @@
     }
     header{
         padding: 0;
+        background-image: url(../);
     }
     .wir_bringen_inner:before {
         position: unset;

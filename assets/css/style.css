@@ -950,8 +950,9 @@ ul.ul_detail_one li {
 }
 .das_team_inner {
     position: absolute;
-    top: 150px;
+    top: 48%;
     left: 100px;
+    transform: translateY(-50%);
 }
 .das_team_btn {
     margin-top: 25px;
