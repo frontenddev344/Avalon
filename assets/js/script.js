@@ -19,11 +19,7 @@ function openCity(evt, cityName) {
 
 
 
-
-
-
-
-
+ 
 
 
 

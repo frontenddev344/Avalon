@@ -566,7 +566,7 @@ ul.bottom_footer_links li a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
 }
 .round_btns .button_round_2 {
     background: #2A2C3D;
