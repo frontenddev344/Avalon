@@ -282,6 +282,21 @@
     font-size: 45px;
     line-height: 50px;
 }
+.mhcp-circle.c2 {
+    top: 16%;
+}
+.mhcp-circle.c3 {
+    top: 31%;
+}
+.mhcp-circle.c4 {
+    top: 46%;
+}
+.mhcp-circle.c6 {
+    top: 76%;
+}
+.mhcp-circle.c7 {
+    top: 91%;
+}
 }
 
 @media screen and (max-width:767px) {
