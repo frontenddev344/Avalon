@@ -53,7 +53,7 @@ header {
     top: 0;
     z-index: 999;
     width: 100%;
-    padding: 0 20px;
+    padding: 10px 20px;
     background: #ffffff0d;
   
 }
@@ -1263,4 +1263,11 @@ video.fullscreen {
 } */
 .tab-scroll-content > .scroll-content-box:first-child {
     padding-top: 0;
+}
+
+.mobile_header_color{
+    background-image: url(../images/mobile_bg_menu.png)!important;
+    background-size: cover!important;
+    background-position:center!important;
+
 }

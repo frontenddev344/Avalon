@@ -561,7 +561,12 @@
        });
    }); 
 </script>
-
+<script>  $(document).ready(function() {
+    $('.navbar-toggler').click(function() {
+        $(this).parent().toggleClass('mobile_header_color');
+    });
+});
+</script>
 </body>
 
 </html>

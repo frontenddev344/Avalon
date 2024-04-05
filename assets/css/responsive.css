@@ -477,6 +477,9 @@
         margin: 0px auto;
         margin-bottom: 40px;
     }
+    ul.navbar-nav {
+        height: 100vh;
+    }
 }
 @media screen and (max-width:503px)
 {
