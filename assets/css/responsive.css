@@ -147,9 +147,12 @@
         text-align: center;
         margin-left: 0px;
     }
-    header{
+    header {
         padding: 0;
-        background-image: url(../);
+        background-image: url(../images/mobile_bg_menu.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .wir_bringen_inner:before {
         position: unset;
@@ -304,6 +307,11 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background: #18253E;
+    padding: 10px;;
+}
+.navbar-collapse.collapse.show .logoplusicon{
+    background:red;
 }
 }
 
