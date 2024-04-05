@@ -397,7 +397,7 @@ ul.bottom_footer_links li a {
     border-width: 0px;
     font-size: 16px;
     font-weight: 500;
-    transition: all 0.9s;
+    transition: all 0.9s ease-in-out;
 }
 .entdecken_content a:hover {
     background: #fff;
@@ -418,7 +418,7 @@ ul.bottom_footer_links li a {
     width: 100%;
     font-size: 16px;
     text-transform: capitalize;
-    transition: all 0.9s ease;
+    transition: all 0.9s ease ease-in-out;
 }
 .nav-item.contact_button a span:hover {
     background-image: linear-gradient(to right, #A9682F 0%, #9BAAB0 30%, #143C8C 100%);
