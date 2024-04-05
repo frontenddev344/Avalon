@@ -319,10 +319,21 @@ li.nav-item a {
 }
 ul.navbar-nav {
     height: 100vh;
-    padding-top: 25%;
+    padding-top: 20%;
 }
 .search_card {
     max-width: 280px;
+}
+.nav-item.contact_button a span {
+    background: #464a74;
+    border-radius: 7px;
+    font-size: 24px;
+}
+.nav-item.contact_button a {
+    border-radius: 10px;
+    width: 160px;
+    height: 60px;
+    font-size: 24px;
 }
 }
 
