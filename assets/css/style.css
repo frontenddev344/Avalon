@@ -41,12 +41,14 @@ html {
     position: relative;
 }
 li.nav-item a {
-    color: #F5F2E8;
+    color: #8689A7;
     font-weight: 400;
     transition: all 0.3s ease-in-out;
 }
 li.nav-item a:hover {
-    color: #7a8897;
+ 
+        color: #fff;
+    
 }
 header {
     position: fixed;
