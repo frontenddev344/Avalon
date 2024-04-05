@@ -32,12 +32,13 @@ html {
     max-width: 180px;
     padding-left: 10px;
 }
-.heaedplus_banner{
-	background-image: url(../images/main_bg_here.png);
-    background-size:cover;
-	background-repeat: no-repeat;
-	background-color: #02083c;
-	background-position:center;
+.heaedplus_banner {
+    background-image: url(../images/main_bg_here.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #02083c;
+    background-position: top left;
+    position: relative;
 }
 li.nav-item a {
     color: #F5F2E8;
@@ -169,7 +170,9 @@ li.nav-item {
     max-width: 470px;
 } */
 .entdecken_section {
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    position: relative;
+    height: 448px;
 }
 .entdecken_section h2 {
     color: #fff;
@@ -627,7 +630,7 @@ ul.bottom_footer_links li a {
 
 .content_technik p {
     color: #fff;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .image_technik {
     position: relative;
@@ -1020,7 +1023,7 @@ ul.ul_detail_one li b {
     border: 1px solid #fff;
 }
 .content_technik:hover {
-    background: linear-gradient(50deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
+    background-color: #2a2a3c;
 }
 .tabcontent h2 {
     font-size: 36px;
@@ -1277,4 +1280,25 @@ video.fullscreen {
 }
 .content_technik{
     border-radius: 0px 0px 5px 5px;
+}
+
+
+.entdecken_section img {
+    width: 100%;
+    height: 100%;
+}
+
+.entdecken_section .container {
+    position: absolute;
+    top: 50%;
+    height: 448px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.entdecken_section .container .row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
 }

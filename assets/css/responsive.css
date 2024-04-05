@@ -489,7 +489,10 @@ ul.navbar-nav {
     .accordion-button::after{
         margin-left:15px;
     }
-
+    .entdecken_section {
+        position: relative;
+        height: 300px;
+    }
   
 }
 @media screen and (max-width:503px)
