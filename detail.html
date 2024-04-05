@@ -35,14 +35,16 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/images/white_logo.png" alt="" class="img-fluid">
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="logoplusicon">
+                    <a class="navbar-brand" href="./index.html">
+                       <img src="./assets/images/white_logo.png" alt="" class="img-fluid">
+                       </a>
+                       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                          aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                       </button>
+                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -472,6 +474,14 @@
 
                     var currentId = $(this).attr('id');
                     nav.find('a[href="#' + currentId + '"]').parent().addClass('active');
+
+                    var url = document.location.href;
+                    if( url.search("#scroll-tab") < 0 ){
+                        document.location = url+ `#${currentId}`;
+                    }else if( url.search(currentId) < 0 ){
+                        url = url.replace(/scroll-tab-\d/g, currentId);
+                        document.location = url;
+                    }
                 }
             });
 
@@ -508,7 +518,7 @@
         });
 
         var url = document.location.href;
-        if( url.search("#scroll-tab") < 0 ) document.location = url+"#scroll-tab-3";
+        if( url.search("#scroll-tab") < 0 ) document.location = url+"#scroll-tab-1";
         // $('a[href="#scroll-tab-3"]').trigger('click');
     </script>
 
