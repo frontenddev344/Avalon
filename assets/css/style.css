@@ -229,12 +229,22 @@ li.nav-item {
     background: linear-gradient(316deg, rgba(25, 37, 62, 1) 38%, rgba(40, 51, 73, 1) 100%);
 	cursor: pointer;
 	transition: all 0.4s;
+    position: relative;
 }
-.service_card:hover{
-	background-image: url(../images/service_after.png);
+.service_card::before {
+    content: "";
+    background-image: url(../images/service_after.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: absolute;
+    inset: 0;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+
+.service_card:hover::before {
+    opacity: 1;
 }
 h2.faq_h2 {
     font-size: 40px;
