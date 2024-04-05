@@ -283,19 +283,25 @@
     line-height: 50px;
 }
 .mhcp-circle.c2 {
-    top: 16%;
+    top: 17.5%;
 }
 .mhcp-circle.c3 {
-    top: 31%;
+    top: 34%;
 }
 .mhcp-circle.c4 {
-    top: 46%;
+    top: 50%;
+}
+.mhcp-circle.c5 {
+    top: 66.5%;
 }
 .mhcp-circle.c6 {
-    top: 76%;
+    top: 82.5%;
 }
 .mhcp-circle.c7 {
-    top: 91%;
+    top: 98.5%;
+}
+.mhcp-vertical-line {
+    height: 83%;
 }
 }
 
@@ -372,6 +378,18 @@
     .tabcontent .h1para {
         font-size: 36px;
         line-height: 45px;
+    }
+    .mhcp-circle.c4 {
+        top: 51%;
+    }
+    .mhcp-circle.c5 {
+        top: 67.5%;
+    }
+    .mhcp-circle.c6 {
+        top: 84.5%;
+    }
+    .mhcp-circle.c7 {
+        top: 100%;
     }
 }
 

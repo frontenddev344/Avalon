@@ -45,8 +45,7 @@ li.nav-item a {
     transition: all 0.3s ease-in-out;
 }
 li.nav-item a:hover {
-    color: #Fff;;
-    /* font-weight: 500; */
+    color: #7a8897;
 }
 header {
     position: fixed;
@@ -423,16 +422,16 @@ ul.bottom_footer_links li a {
 .mhcp-vertical-line:After {
     content: "";
     position: absolute;
-    top: calc(-17% - 8px);
-    height: 17%;
-    width: 2px;
+    top: calc(-21% - -62px);
+    height: 18.5%;
+    width: 4px;
     background: #fff;
 }
 .wir_bringen_inner:before {
     position: absolute;
     content: '';
     width: 100%;
-    height: 2px;
+    height: 4px;
     background: #fff;
     top: 240px;
     left: 109px;
@@ -663,9 +662,9 @@ ul.bottom_footer_links li a {
 .mhcp-vertical-line {
     background: #F4F4F4;
     border-radius: 24px;
-    width: 2px;
+    width: 4px;
     margin: 0 auto;
-    height: 90%;
+    height: 85%;
     position: absolute;
     top: 215px;
     left: 120px;
@@ -673,7 +672,7 @@ ul.bottom_footer_links li a {
     background: #42484f;;
 }
 .mhcp-rectangle {
-    width: 2px;
+    width: 4px;
     background: #fff;
     border-radius: 0;
     content: "";
@@ -691,24 +690,23 @@ ul.bottom_footer_links li a {
         top: 0%;
     }
 
-.mhcp-circle.c2 {
-    top: 14%;
-}
+    .mhcp-circle.c2 {
+        top: 15.5%;
+    }
 .mhcp-circle.c3 {
-    top: 30%;
+    top: 32%;
 }
 .mhcp-circle.c4 {
-    top: 45%;
+    top: 48.5%;
 }
 .mhcp-circle.c5 {
-    top: 61%;
+    top: 65%;
 }
 .mhcp-circle.c6 {
-    top: 77%;
+    top: 81.5%;
 }
 .mhcp-circle.c7 {
-    top: 93%;
-
+    top: 98%;
 }
 .mhcp-rectangle .mhcp-circle {
     position: absolute;
@@ -718,7 +716,7 @@ ul.bottom_footer_links li a {
     right: auto;
     width: 55px;
     height: 55px;
-    background-color: #ffffff;
+    background-color: #F5F2E8;
     border: unset;
     display: flex;
     justify-content: center;
