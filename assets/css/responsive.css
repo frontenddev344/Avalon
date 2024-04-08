@@ -251,9 +251,6 @@
         padding-right: 5%;
         padding-left: 40px;
     }
-    .search_div i {
-        right: 30px;
-    }
     .tabcontent .h1para {
         font-size: 55px;
         line-height: 60px;
@@ -316,6 +313,7 @@
 }
 li.nav-item a {
     font-size: 30px;
+    color: #F5F2E8;
 }
 ul.navbar-nav {
     height: 100vh;
@@ -373,9 +371,6 @@ ul.navbar-nav {
     }
     .detail_page {
         padding-top: 150px;
-    }
-    .search_div i {
-        right: 30px;
     }
     .das_team {
         height: 360px;
@@ -509,7 +504,9 @@ ul.navbar-nav {
         position: relative;
         height: 300px;
     }
-  
+    .search_card {
+        margin: auto;
+    }
 }
 @media screen and (max-width:503px)
 {
