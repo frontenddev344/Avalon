@@ -549,7 +549,7 @@ ul.navbar-nav {
     .wir_bringen_inner h2:after {
         content: "";
         position: absolute;
-        bottom: -30px;
+        bottom: -29px;
         left: -42px;
         height: 4px;
         width: 110%;
