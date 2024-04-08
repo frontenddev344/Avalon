@@ -333,6 +333,26 @@ ul.navbar-nav {
     height: 60px;
     font-size: 24px;
 }
+/**/
+.mhcp-vertical-line:After {
+    content: "";
+    position: absolute;
+    top: calc(-16% - -43px);
+    height: 15%;
+    width: 4px;
+    background: #fff;
+    z-index: -1;
+}
+.mhcp-vertical-line:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 4px;
+    background: #fff;
+    width: 650px;
+    right: 0;
+    top: calc(-16% - -40px);
+}
 }
 
 @media screen and (max-width:767px) {
@@ -424,6 +444,9 @@ ul.navbar-nav {
     }
     .blog_page_wrapper {
         padding-top: 100px;
+    }
+    .mhcp-vertical-line:before{
+        width: 500px;
     }
 }
 

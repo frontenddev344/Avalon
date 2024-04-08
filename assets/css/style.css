@@ -438,10 +438,21 @@ ul.bottom_footer_links li a {
 .mhcp-vertical-line:After {
     content: "";
     position: absolute;
-    top: calc(-21% - -62px);
-    height: 18.5%;
+    top: calc(-19% - -55px);
+    height: 19%;
     width: 4px;
     background: #fff;
+    z-index: -1;
+}
+.mhcp-vertical-line:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 4px;
+    background: #fff;
+    width: 650px;
+    right: 0;
+    top: calc(-19% - -52px);
 }
 .wir_bringen_inner:before {
     position: absolute;
@@ -452,6 +463,7 @@ ul.bottom_footer_links li a {
     top: 240px;
     left: 109px;
     max-width: 530px;
+    display: none;
 }
 
 
