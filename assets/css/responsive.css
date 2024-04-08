@@ -40,6 +40,9 @@
         top: 241px;
         left: 18px;
     }
+    .das_team_inner p {
+        max-width: 60%;
+    }
 }
 @media screen and (max-width:1320px){
     .wir_bringen_inner:before {
@@ -353,6 +356,10 @@ ul.navbar-nav {
     right: 0;
     top: calc(-16% - -40px);
 }
+.wir_brigen_ai_2 .row > div {
+    display: flex;
+    justify-content: flex-start;
+}
 }
 
 @media screen and (max-width:767px) {
@@ -447,6 +454,9 @@ ul.navbar-nav {
     }
     .mhcp-vertical-line:before{
         width: 500px;
+    }
+    .blog_img_bottom{
+        bottom:-50px;
     }
 }
 
@@ -581,6 +591,15 @@ ul.navbar-nav {
 @media screen and (max-width:497px){
     .mhcp-vertical-line {
         top: 245px;
+    }
+    .das_team_inner p {
+        max-width: 100%;
+    }
+    .das_team{
+        background-position: center;
+    }
+    .blog_img_bottom {
+        bottom: -28px;
     }
 }
 
