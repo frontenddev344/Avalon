@@ -467,7 +467,7 @@ ul.navbar-nav {
     }
     .left_wir_2 {
         padding-left: 70px;
-        padding-bottom: 30px;
+        padding-bottom: 0;
     }
     .design_refrence_div {
         padding-left: 70px;
@@ -530,6 +530,28 @@ ul.navbar-nav {
     .search_card {
         margin: auto;
     }
+    .mhcp-vertical-line:before{
+        display: none;
+    }
+    .wir_bringen_inner h2{
+        position: relative;
+    }
+    .wir_bringen_inner h2:after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: -42px;
+        height: 4px;
+        width: 110%;
+        background: #fff;
+    }
+    .right_wir_2 p {
+        margin-top: 27px;
+    }
+    .mhcp-vertical-line:after {
+        top: calc(-16% - -16px);
+        height: 16%;
+    }
 }
 @media screen and (max-width:503px)
 {
@@ -555,6 +577,13 @@ ul.navbar-nav {
         top: -410px;
     }
 }
+
+@media screen and (max-width:497px){
+    .mhcp-vertical-line {
+        top: 245px;
+    }
+}
+
 @media screen and (max-width:442px)
 {
     .design_refrence_div:before {
