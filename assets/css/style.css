@@ -1104,9 +1104,10 @@ ul.ul_detail_one li b {
     width: 30px;
 }
 
-body{
-    width:100%!important;
+body {
+    width: 100%!important;
     overflow-x: hidden!important;
+    background: #0c1934;
 }
 
 .wir_bringen_inner p a{
