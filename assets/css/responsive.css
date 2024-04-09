@@ -557,6 +557,7 @@ ul.navbar-nav {
     }
     .right_wir_2 p {
         margin-top: 27px;
+        top: 0;
     }
     .mhcp-vertical-line:after {
         top: calc(-16% - -16px);

@@ -74,7 +74,7 @@
                     <div class="scroll-tab-links">
                         <h2 class="scroll-tab-heading">User journey</h2>
                         <ul>
-                            <li class="active"><a href="#scroll-tab-1">Erstgespräch</a></li>
+                            <li><a href="#scroll-tab-1">Erstgespräch</a></li>
                             <li><a href="#scroll-tab-2">Analyse & Beratung</a></li>
                             <li><a href="#scroll-tab-3">Prototyping & Showcase</a></li>
                             <li><a href="#scroll-tab-4">Auswertung & Vereinbarung</a></li>
@@ -263,11 +263,11 @@
             <div class="row">
                 <div class="col-12 px-0">
                     <div class="scroll-tab-links">
-                        <h2 class="scroll-tab-heading">User journey
+                        <h2 class="scroll-tab-heading"><span>User journey</span>
                             <i class="fa-solid fa-angle-down"></i>
                         </h2>
                         <ul>
-                            <li class="active"><a href="#scroll-tab-1">Erstgespräch</a></li>
+                            <li><a href="#scroll-tab-1">Erstgespräch</a></li>
                             <li><a href="#scroll-tab-mob-2">Analyse & Beratung</a></li>
                             <li><a href="#scroll-tab-mob-3">Prototyping & Showcase</a></li>
                             <li><a href="#scroll-tab-mob-4">Auswertung & Vereinbarung</a></li>
@@ -511,6 +511,8 @@
                         }, 1000)
                     }
                 });
+
+                $('.detail_page_wrapper.mob .scroll-tab-links h2 span').text($el.text());
             } else {
                 if ($('.scroll-tab-links li').index($el.closest('.scroll-tab-links li')) == 0) {
                     $('html, body').animate({
@@ -566,16 +568,16 @@
                 });
             });
 
-            links.forEach(function (link) {
-                link.addEventListener('click', function (event) {
-                    event.preventDefault();
-                    var tabId = this.getAttribute('href');
-                    var content = document.querySelector(tabId);
-                    toggleContent(content);
-                    // Scroll to the tab content
-                    content.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                });
-            });
+            // links.forEach(function (link) {
+            //     link.addEventListener('click', function (event) {
+            //         event.preventDefault();
+            //         var tabId = this.getAttribute('href');
+            //         var content = document.querySelector(tabId);
+            //         toggleContent(content);
+            //         // Scroll to the tab content
+            //         content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            //     });
+            // });
 
             function toggleContent(content) {
                 content.classList.toggle('open');
@@ -584,6 +586,11 @@
 
 
         jQuery(document).ready(function () {
+            let hash = window.location.hash;
+            $('.detail_page_wrapper.mob .scroll-tab-links h2 span').text( $('.detail_page_wrapper.mob .scroll-tab-links li a[href="'+hash+'"]').text() );
+            $('.detail_page_wrapper a[href="'+hash+'"]').parent('li').addClass('active');
+            console.log('.detail_page_wrapper a[href="'+hash+'"]');
+
             jQuery('.mob .scroll-tab-links ul li a').click(function () {
 
                 jQuery('.mob .scroll-tab-links ul').removeClass('open');

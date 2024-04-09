@@ -87,9 +87,9 @@ li.nav-item {
     margin: 0 auto;
     left: 0;
     right: 0;
-    bottom: 50px;
+    bottom: 20px;
     width: 56px;
-	cursor: pointer;
+    cursor: pointer;
 }
 .wir_brigen_ai p.uper_paragraph {
     color: #D25008;
@@ -600,7 +600,7 @@ ul.bottom_footer_links li a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-    /* border: 2px solid #fff; */
+    border: 2px solid transparent;
 }
 .round_btns .button_round_2 {
     background: #2A2C3D;
@@ -610,6 +610,7 @@ ul.bottom_footer_links li a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
+    border: 2px solid transparent;
 }
 
 
@@ -1364,7 +1365,7 @@ video.fullscreen {
     height: 100%;
     justify-content: center;
 }
-.activeb {
+.round_btns  .activeb {
     border: 2px solid #fff;
     color: #fff !important;
 }
@@ -1383,7 +1384,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .right_wir_2 p {
     position: relative;
-    top: 45px;
+    top: 35px;
     font-size: 16px;
     font-weight: 300;
     margin-top: 25px;
