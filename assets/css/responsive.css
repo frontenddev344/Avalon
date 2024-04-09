@@ -152,6 +152,8 @@
     }
     header {
         padding: 0;
+    }
+    header:has(.show){
         background-image: url(../images/mobile_bg_menu.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -307,13 +309,11 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background: #18253E;
+    background: #ffffff0d;
     padding: 10px;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(10px);
 }
-.navbar-collapse.collapse.show .logoplusicon{
-    background:red;
-}
+
 li.nav-item a {
     font-size: 30px;
     color: #F5F2E8;
