@@ -593,12 +593,7 @@ ul.navbar-nav {
     .mhcp-vertical-line {
         top: 245px;
     }
-    .das_team_inner p {
-        max-width: 100%;
-    }
-    .das_team{
-        background-position: center;
-    }
+
     .blog_img_bottom {
         bottom: -28px;
     }
@@ -625,6 +620,9 @@ ul.navbar-nav {
     .left_wir_2.last_line:before {
         height: 470px;
         top: -430px;
+    }
+    .das_team_inner p {
+        max-width: 100%;
     }
 }
 

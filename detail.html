@@ -587,9 +587,12 @@
 
         jQuery(document).ready(function () {
             let hash = window.location.hash;
-            $('.detail_page_wrapper.mob .scroll-tab-links h2 span').text( $('.detail_page_wrapper.mob .scroll-tab-links li a[href="'+hash+'"]').text() );
-            $('.detail_page_wrapper a[href="'+hash+'"]').parent('li').addClass('active');
-            console.log('.detail_page_wrapper a[href="'+hash+'"]');
+            if( hash !== '' ){
+                $('.detail_page_wrapper.mob .scroll-tab-links h2 span').text( $('.detail_page_wrapper.mob .scroll-tab-links li a[href="'+hash+'"]').text() );
+                $('.detail_page_wrapper a[href="'+hash+'"]').parent('li').addClass('active');
+            }else{
+                $('.detail_page_wrapper.desk .scroll-tab-links ul li:first-child').addClass('active');
+            }
 
             jQuery('.mob .scroll-tab-links ul li a').click(function () {
 
