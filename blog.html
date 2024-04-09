@@ -1,269 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Blog</title>
-      <link rel="icon" type="image/x-icon" href="./assets/images/bl_fav.png">
-      <link rel="stylesheet" href="./assets/css/bootstrap.css">
-      <link rel="stylesheet" href="./assets/css/style.css">
-      <link rel="stylesheet" href="./assets/css/responsive.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-         crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <!-- dm sans font -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-      <!-- space grotesk font -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-   </head>
-   <body class="blog_page">
-      <!-- ********************** Header *************************** -->
-      <header>
-         <nav class="navbar navbar-expand-lg p-0">
-            <div class="container-fluid px-0">
-               <div class="logoplusicon">
-                  <a class="navbar-brand" href="./index.html">
-                     <img src="./assets/images/white_logo.png" alt="" class="img-fluid">
-                     </a>
-                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-               </div>
-             
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Showcases</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
-                     </li>
-                     <li class="nav-item contact_button">
-                        <a class="nav-link" href="#"><span>Contact</span></a>
-                     </li>
-                  </ul>
-               </div>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Blog</title>
+   <link rel="icon" type="image/x-icon" href="./assets/images/bl_fav.png">
+   <link rel="stylesheet" href="./assets/css/bootstrap.css">
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="./assets/css/responsive.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- dm sans font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet">
+   <!-- space grotesk font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet">
+</head>
+
+<body class="blog_page">
+   <!-- ********************** Header *************************** -->
+   <header>
+      <nav class="navbar navbar-expand-lg p-0">
+         <div class="container-fluid px-0">
+            <div class="logoplusicon">
+               <a class="navbar-brand" href="./index.html">
+                  <img src="./assets/images/white_logo.png" alt="" class="img-fluid">
+               </a>
+               <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
             </div>
-         </nav>
-      </header>
-      <div class="blog_page_wrapper">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-4 col-xl-3 mb-4 mb-lg-0">
-                  <div class="search_card">
-                     <div class="search_div">
-                        <input type="search" placeholder="Suchen...">
-                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                     </div>
-                     <div class="round_btns">
-                        <div class="_inner_round_btn1"><a href="" class="button_round_1">Technik</a></div>
-                        <div class="_inner_round_bt2"><a href="" class="button_round_2">Logik</a></div>
-                     </div>
-                     <div class="round_btns">
-                        <div class="_inner_round_bt2"><a href="" class="button_round_2">AI</a></div>
-                        <div class="_inner_round_btn1"><a href="" class="button_round_1">Wirtschaft</a></div>
-                     </div>
-                     <div class="round_btns">
-                        <div class="_inner_round_btn1"><a href="" class="button_round_2">Technik</a></div>
-                        <div class="_inner_round_bt2"><a href="" class="button_round_2">Logik</a></div>
-                     </div>
-                     <div class="round_btns">
-                        <div class="_inner_round_bt2"><a href="" class="button_round_2">AI</a></div>
-                        <div class="_inner_round_btn1"><a href="" class="button_round_1">Wirtschaft</a></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-8 col-xl-9">
-                  <div class="technik_wrapper">
-                     <div class="row row gy-5 ps-lg-4">
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                        
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                   
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                    
-                   
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div class="technik_card">
-                              <div class="image_technik">
-                                 <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
-                                 <a href="./detail.html" class="technik_button">Technik</a>
-                              </div>
-                              <div class="content_technik">
-                                 <a href="./detail.html">
-                                    <h3>KI-geschütze<br> Qualitätssicherung</h3>
-                                    <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte ernten.</p>
-                                 </a>
-                  
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  
-                    
-                  </div>
-               </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Showcases</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item contact_button">
+                     <a class="nav-link" href="#"><span>Contact</span></a>
+                  </li>
+               </ul>
             </div>
          </div>
-         <div class="blog_img_bottom">
-            <img src="./assets/images/image_in_uper_blog.png" alt="" class="img-fluid">
+      </nav>
+   </header>
+   <div class="blog_page_wrapper">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4 col-xl-3 mb-4 mb-lg-0">
+               <div class="search_card">
+                  <div class="search_div">
+                     <input type="search" placeholder="Suchen...">
+                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                  <div class="round_btns">
+                     <div class="_inner_round_btn1"><a href="" class="button_round_1">Technik</a></div>
+                     <div class="_inner_round_bt2"><a href="" class="button_round_2">Logik</a></div>
+                  </div>
+                  <div class="round_btns">
+                     <div class="_inner_round_bt2"><a href="" class="button_round_2">AI</a></div>
+                     <div class="_inner_round_btn1"><a href="" class="button_round_1">Wirtschaft</a></div>
+                  </div>
+                  <div class="round_btns">
+                     <div class="_inner_round_btn1"><a href="" class="button_round_2">Technik</a></div>
+                     <div class="_inner_round_bt2"><a href="" class="button_round_2">Logik</a></div>
+                  </div>
+                  <div class="round_btns">
+                     <div class="_inner_round_bt2"><a href="" class="button_round_2">AI</a></div>
+                     <div class="_inner_round_btn1"><a href="" class="button_round_1">Wirtschaft</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-8 col-xl-9">
+               <div class="technik_wrapper">
+                  <div class="row row gy-5 ps-lg-4">
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+
+
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="technik_card">
+                           <div class="image_technik">
+                              <img src="./assets/images/new_blog_pc_hq.PNG" alt="">
+                              <a href="./detail.html" class="technik_button">Technik</a>
+                           </div>
+                           <div class="content_technik">
+                              <a href="./detail.html">
+                                 <h3>KI-geschütze<br> Qualitätssicherung</h3>
+                                 <p>Wer im ersten Schritt auf hohe <br>Qualität setzt wird in Zukunft die<br> Früchte
+                                    ernten.</p>
+                              </a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+
+               </div>
+            </div>
          </div>
       </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="./assets/js/bootstrap.bundle.js"></script>
-      <script src="./assets/js/script.js"></script>
+      <div class="blog_img_bottom">
+         <img src="./assets/images/image_in_uper_blog.png" alt="" class="img-fluid">
+      </div>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="./assets/js/bootstrap.bundle.js"></script>
+   <script src="./assets/js/script.js"></script>
 
-<script>
-   $(document).ready(function() {
-    $('._inner_round_btn1 a').click(function(e) {
-        e.preventDefault();
-
-      
-        $('._inner_round_btn1').removeClass('activeb');
-
-       
-        $(this).toggleClass('activeb');
-    });
-});
-</script>
-
-<script>
-   $(document).ready(function() {
-    $('._inner_round_bt2 a').click(function(e) {
-        e.preventDefault();
-
-      
-        $('._inner_round_bt2 ').removeClass('activeb');
-
-       
-        $(this).toggleClass('activeb');
-    });
-});
-</script>
+   <script>
+      $(document).ready(function () {
+         $('._inner_round_btn1 a').click(function (e) {
+            e.preventDefault();
 
 
-      <script>  $(document).ready(function() {
-         $('.navbar-toggler').click(function() {
-             $(this).parent().toggleClass('mobile_header_color');
+            $('._inner_round_btn1').removeClass('activeb');
+
+
+            $(this).toggleClass('activeb');
          });
-     });
-     </script>
+      });
+   </script>
+
+   <script>
+      $(document).ready(function () {
+         $('._inner_round_bt2 a').click(function (e) {
+            e.preventDefault();
 
 
+            $('._inner_round_bt2 ').removeClass('activeb');
 
-   </body>
+
+            $(this).toggleClass('activeb');
+         });
+      });
+   </script>
+
+
+   <script>  $(document).ready(function () {
+         $('.navbar-toggler').click(function () {
+            $(this).parent().toggleClass('mobile_header_color');
+         });
+      });
+   </script>
+
+<script>
+   const damping = 0.8;
+   const maxOffset = 100;
+
+   const container = document.querySelector('body');
+   const content = document.querySelector('body');
+
+   // states
+   let offset = 0;
+   let rendered = 0;
+   let lastDis = 0;
+   let backFlag = false;
+
+   let timer;
+
+   function resetFlag() {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+         backFlag = false;
+      }, 30);
+   }
+
+   function render() {
+      if (!offset && !rendered) {
+         lastDis = 0;
+
+         return requestAnimationFrame(render);
+      }
+
+      const dis = offset - rendered;
+
+      if (lastDis * dis < 0) {
+         backFlag = true;
+      }
+
+      lastDis = dis;
+
+      // throw away float part
+      const next = offset - (dis * damping | 0);
+
+      content.style.transform = `translate3d(0, ${-next}px, 0)`;
+
+      rendered = next;
+      offset = offset * damping | 0;
+
+      requestAnimationFrame(render);
+   }
+
+   render();
+
+   // wheel delta normalizing
+   // copied from smooth-scrollbar/src/utils/get-delta.js
+   const DELTA_SCALE = {
+      STANDARD: 1,
+      OTHERS: -3,
+   };
+
+   const DELTA_MODE = [1.0, 28.0, 500.0];
+
+   const getDeltaMode = (mode) => DELTA_MODE[mode] || DELTA_MODE[0];
+
+   const getDelta = (evt) => {
+      if ('deltaX' in evt) {
+         const mode = getDeltaMode(evt.deltaMode);
+
+         return {
+            x: evt.deltaX / DELTA_SCALE.STANDARD * mode,
+            y: evt.deltaY / DELTA_SCALE.STANDARD * mode,
+         };
+      }
+
+      if ('wheelDeltaX' in evt) {
+         return {
+            x: evt.wheelDeltaX / DELTA_SCALE.OTHERS,
+            y: evt.wheelDeltaY / DELTA_SCALE.OTHERS,
+         };
+      }
+
+      // ie with touchpad
+      return {
+         x: 0,
+         y: evt.wheelDelta / DELTA_SCALE.OTHERS,
+      };
+   };
+
+   function isOntoEdge(delta) {
+      const {
+         scrollTop,
+         scrollHeight,
+         clientHeight,
+      } = container;
+
+      const max = scrollHeight - clientHeight;
+
+      return (scrollTop === 0 && delta <= 0) ||
+         (scrollTop === max && delta >= 0);
+   }
+
+   // wheel events handler
+   [
+      'wheel',
+      'mousewheel'
+   ].forEach(name => {
+      container.addEventListener(name, evt => {
+         const { y } = getDelta(evt);
+
+         // check if scrolling onto very edge
+         if (!isOntoEdge(y)) {
+            return;
+         }
+
+         resetFlag();
+         evt.preventDefault();
+
+         if (!backFlag && y) {
+            offset += y * (maxOffset - Math.abs(offset)) / maxOffset;
+         }
+      });
+   });
+
+</script>
+
+</body>
+
 </html>
