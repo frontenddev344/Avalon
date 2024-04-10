@@ -360,6 +360,10 @@ ul.navbar-nav {
     display: flex;
     justify-content: flex-start;
 }
+.right_wir_2 p {
+    margin-top: 27px;
+    top: 0;
+}
 }
 
 @media screen and (max-width:767px) {
@@ -554,10 +558,6 @@ ul.navbar-nav {
         height: 4px;
         width: 110%;
         background: #fff;
-    }
-    .right_wir_2 p {
-        margin-top: 27px;
-        top: 0;
     }
     .mhcp-vertical-line:after {
         top: calc(-16% - -16px);
