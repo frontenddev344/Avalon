@@ -401,6 +401,14 @@
 
 </script>
 
+<script>
+   $(window).on('scroll', function () {
+            var cur_pos = $(this).scrollTop();
+            if (cur_pos > 10) {
+                $('body').attr('style','');
+            }
+        });
+</script>
 </body>
 
 </html>

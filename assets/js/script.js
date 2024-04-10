@@ -16,6 +16,14 @@ function openCity(evt, cityName) {
   document.getElementById("defaultOpen").click();
 
 
+/***global script for overflowing issue on fixed content */
+
+   $(window).on('scroll', function () {
+            var cur_pos = $(this).scrollTop();
+            if (cur_pos > 10) {
+                $('body').attr('style','');
+            }
+        });
 
 
 

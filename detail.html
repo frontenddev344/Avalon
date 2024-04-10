@@ -459,10 +459,9 @@
             nav = $('.scroll-tab-links'),
             nav_height = $('header').outerHeight();
         click_scroll = false;
-
         $(window).on('scroll', function () {
+            var cur_pos = $(this).scrollTop();
             if (!click_scroll) {
-                var cur_pos = $(this).scrollTop();
 
                 sections.each(function () {
                     var top = $(this).offset().top - nav_height + 50,
@@ -514,6 +513,7 @@
 
                 $('.detail_page_wrapper.mob .scroll-tab-links h2 span').text($el.text());
             } else {
+
                 if ($('.scroll-tab-links li').index($el.closest('.scroll-tab-links li')) == 0) {
                     $('html, body').animate({
                         scrollTop: $(id).offset().top - nav_height - 150
@@ -729,6 +729,16 @@
     });
 
  </script>
+
+ <script>
+    $(window).on('scroll', function () {
+            var cur_pos = $(this).scrollTop();
+            if (cur_pos > 10) {
+                $('body').attr('style','');
+            }
+        });
+ </script>
+ 
 </body>
 
 </html>
