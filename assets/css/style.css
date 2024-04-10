@@ -1269,7 +1269,6 @@ video.fullscreen {
     top: 0;
     z-index: -1;
     height: 120vh;
-    object-position: -70px;
 }
 .wir_brigen_ai {
     margin-top: -120vh;
