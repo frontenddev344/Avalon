@@ -773,6 +773,7 @@ ul.bottom_footer_links li a {
     border-radius: 20px;
     text-decoration: none;
     padding: 2px 15px;
+    z-index:2;
 }
 
 .content_technik {
@@ -1066,7 +1067,7 @@ ul.bottom_footer_links li a {
     font-weight: 300;
     color: #9399a4;
     margin-top: 25px;
-    line-height: 30px;
+    line-height: 26px;
 }
 
 .tabcontent p span {
