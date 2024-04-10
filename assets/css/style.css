@@ -344,6 +344,9 @@ h2.faq_h2 {
 .accordion-button:not(.collapsed)::after{
     transform: none;
 }
+.accordion-header {
+    margin-bottom: -1px;
+}
 
 .accordion-body {
     background: #0c1934;
