@@ -366,8 +366,8 @@ ul.navbar-nav {
     /* .banner_inner_content {
         text-align: center;
     } */
-    .tab-scroll-content .main_content_under_tab_3{
-        width: 100%;
+    .tab-scroll-content .main_content_under_tab_3 {
+        width: 70%;
         max-width: 100%;
     }
     .wir_bringen_inner {
@@ -587,6 +587,26 @@ ul.navbar-nav {
         height: 450px;
         top: -410px;
     }
+    .tab-scroll-content .main_content_under_tab_3 {
+        width: 90%;
+    }
+    .das_team {
+        background: url("../images/Timeline-Banner.png");
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+        background-position: 0 3px;
+    }
+    .das_team_inner p {
+        max-width: 95%;
+    }
+    .das_team_inner {
+        bottom: -95px;
+        top: unset;
+        left: 0;
+        padding-left: 40px;
+    }
+    
 }
 
 @media screen and (max-width:497px){
@@ -620,9 +640,6 @@ ul.navbar-nav {
     .left_wir_2.last_line:before {
         height: 470px;
         top: -430px;
-    }
-    .das_team_inner p {
-        max-width: 100%;
     }
 }
 
